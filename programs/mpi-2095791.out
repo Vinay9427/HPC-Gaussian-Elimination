@@ -1,0 +1,10 @@
+[compute-35-3:26414] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-35-3:26416] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-35-3:26415] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-35-3:26417] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+
+Starting clock.
+elapsed time = 0.007732
+Stopped clock.
+
+Elapsed time = 8.023 ms.

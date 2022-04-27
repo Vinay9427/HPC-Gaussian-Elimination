@@ -1,0 +1,83 @@
+#!/bin/bash
+#SBATCH -J SEQ_GAUSS3
+#SBATCH --ntasks=8
+#SBATCH --export=all
+#SBATCH --out=../foundryOutputs/seq_gauss/gauss_seq3-%j.out
+#SBATCH --time=0-00:10:00
+#SBATCH --mail-type=begin,end,fail,requeue
+
+echo "gauss_seq3 with 200"
+../bin/gauss_seq3 ../input/input_200.txt
+
+echo "--------------------------"
+
+echo "gauss_seq3 with 400"
+../bin/gauss_seq3 ../input/input_400.txt
+
+echo "--------------------------"
+
+echo "gauss_seq3 with 600"
+../bin/gauss_seq3 ../input/input_600.txt
+
+
+echo "--------------------------"
+
+echo "gauss_seq3 with 800"
+../bin/gauss_seq3 ../input/input_800.txt
+
+
+echo "--------------------------"
+
+echo "gauss_seq3 with 1000"
+../bin/gauss_seq3 ../input/input_1000.txt
+
+
+echo "--------------------------"
+
+echo "gauss_seq3 with 1200"
+../bin/gauss_seq3 ../input/input_1200.txt
+
+
+echo "--------------------------"
+
+echo "gauss_seq3 with 1400"
+../bin/gauss_seq3 ../input/input_1400.txt
+
+echo "--------------------------"
+
+echo "gauss_seq3 with 1600"
+../bin/gauss_seq3 ../input/input_1600.txt
+
+echo "--------------------------"
+
+echo "gauss_seq3 with 1800"
+../bin/gauss_seq3 ../input/input_1800.txt
+
+echo "--------------------------"
+
+echo "gauss_seq3 with 2000"
+../bin/gauss_seq3 ../input/input_2000.txt
+echo "--------------------------"
+
+echo "gauss_seq3 with 2200"
+../bin/gauss_seq3 ../input/input_2200.txt
+
+echo "--------------------------"
+
+echo "gauss_seq3 with 2400"
+../bin/gauss_seq3 ../input/input_2400.txt
+
+echo "--------------------------"
+
+echo "gauss_seq3 with 2600"
+../bin/gauss_seq3 ../input/input_2600.txt
+
+echo "--------------------------"
+
+echo "gauss_seq3 with 2800"
+../bin/gauss_seq3 ../input/input_2800.txt
+
+echo "--------------------------"
+
+echo "gauss_seq3 with 3000"
+../bin/gauss_seq3 ../input/input_3000.txt
