@@ -6,9 +6,8 @@
 
 /* Program Parameters */
 #define BILLION 1000000000L
-#define MAXN 2000 /* Max value of N */
+#define MAXN 3000 /* Max value of N */
 int N;            /* Matrix size */
-int seed = 0;     /* Random seed */
 
 /* Matrices and vectors */
 double A[MAXN][MAXN], B[MAXN], X[MAXN];
@@ -91,8 +90,6 @@ void gauss()
     int i, j, k;
     int temp;
 
-    /* Gaussian elimination */
-    
     for(i=0;i<N-1;i++){
         //Partial Pivoting
         for(k=i+1;k<N;k++){
@@ -109,23 +106,22 @@ void gauss()
         }
         //Begin Gauss Elimination
         for(k=i+1;k<N;k++){
-            register double  tmp=A[k][i];
-            for(j=0;j<N+1;j++){
-                A[k][j]=A[k][j]-(tmp/ A[i][i])*A[i][j];
+            double  tmp=A[k][i]/ A[i][i];
+            for(j=i+1;j<N+1;j++){
+                A[k][j]=A[k][j]-tmp*A[i][j];
             }
         }
-         
     }
 
-    printf("\nA =\n\t");
-        for (i = 0; i < N; i++)
-        {
-            for (j = 0; j <=N; j++)
-            {
-                printf("%lf%s", A[i][j], (j < N ) ? ", " : ";\n\t");
-            }
-        }
-        
+    // printf("\nA =\n\t");
+    //     for (i = 0; i < N; i++)
+    //     {
+    //         for (j = 0; j <=N; j++)
+    //         {
+    //             printf("%lf%s", A[i][j], (j < N ) ? ", " : ";\n\t");
+    //         }
+    //     }
+
     //Begin Back-substitution
     for(i=N-1;i>=0;i--){
         X[i]=A[i][N];
@@ -139,7 +135,7 @@ void gauss()
 int main(int argc, char *argv[])
 {
     struct timespec start, end;
-    double elapsed_time;
+    double elapsed_time, elapsed_time_us, elapsed_time_ms, elapsed_time_s;
 
     // RandMatrixVectorGen(argc, argv);
     ReadInputAndInitializeMatrix(argc, argv);
@@ -147,11 +143,17 @@ int main(int argc, char *argv[])
     clock_gettime(CLOCK_MONOTONIC, &start);
     gauss();
     clock_gettime(CLOCK_MONOTONIC, &end);
-    elapsed_time = (end.tv_sec - start.tv_sec) * BILLION + end.tv_nsec - start.tv_nsec;
+   // elapsed_time = (end.tv_sec - start.tv_sec) * BILLION + end.tv_nsec - start.tv_nsec;
+    elapsed_time_us = (end.tv_sec - start.tv_sec) * 1000000 + (end.tv_nsec - start.tv_nsec) / 1000;
+    elapsed_time_ms = (end.tv_sec - start.tv_sec) * 1000 + (end.tv_nsec - start.tv_nsec) / 1000000;
+    elapsed_time_s = (end.tv_sec - start.tv_sec)  + (end.tv_nsec - start.tv_nsec) / 1000000000;
     print_X();
 
-    printf("gauss runtime: %llu nanoseconds\n", (long long unsigned int)elapsed_time);
+    //printf("gauss runtime: %llu nanoseconds\n", (long long unsigned int)elapsed_time);
+    printf("the input matrix size: %d\n", N);
+    printf("gauss runtime in microseconds: %llu us\n", (long long unsigned int)elapsed_time_us);
+    printf("gauss runtime in milliseconds: %llu ms\n", (long long unsigned int)elapsed_time_ms);
+    printf("gauss runtime in seconds: %llu s\n", (long long unsigned int)elapsed_time_s);
 
     return 0;
 }
-

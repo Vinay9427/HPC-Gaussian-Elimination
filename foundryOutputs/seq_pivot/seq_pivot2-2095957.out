@@ -1,0 +1,89 @@
+seq_pivot2 with 200
+the input matrix size: 200
+gauss runtime in microseconds: 8972 us
+gauss runtime in milliseconds: 8 ms
+gauss runtime in seconds: 0 s
+--------------------------
+seq_pivot2 with 400
+the input matrix size: 400
+gauss runtime in microseconds: 68680 us
+gauss runtime in milliseconds: 68 ms
+gauss runtime in seconds: 0 s
+--------------------------
+seq_pivot2 with 600
+the input matrix size: 600
+gauss runtime in microseconds: 227049 us
+gauss runtime in milliseconds: 227 ms
+gauss runtime in seconds: 0 s
+--------------------------
+seq_pivot2 with 800
+the input matrix size: 800
+gauss runtime in microseconds: 533049 us
+gauss runtime in milliseconds: 534 ms
+gauss runtime in seconds: 1 s
+--------------------------
+seq_pivot2 with 1000
+the input matrix size: 1000
+gauss runtime in microseconds: 1041983 us
+gauss runtime in milliseconds: 1041 ms
+gauss runtime in seconds: 1 s
+--------------------------
+seq_pivot2 with 1200
+the input matrix size: 1200
+gauss runtime in microseconds: 1779853 us
+gauss runtime in milliseconds: 1779 ms
+gauss runtime in seconds: 1 s
+--------------------------
+seq_pivot2 with 1400
+the input matrix size: 1400
+gauss runtime in microseconds: 2848317 us
+gauss runtime in milliseconds: 2849 ms
+gauss runtime in seconds: 3 s
+--------------------------
+seq_pivot2 with 1600
+the input matrix size: 1600
+gauss runtime in microseconds: 4270016 us
+gauss runtime in milliseconds: 4271 ms
+gauss runtime in seconds: 5 s
+--------------------------
+seq_pivot2 with 1800
+the input matrix size: 1800
+gauss runtime in microseconds: 6087348 us
+gauss runtime in milliseconds: 6087 ms
+gauss runtime in seconds: 6 s
+--------------------------
+seq_pivot2 with 2000
+the input matrix size: 2000
+gauss runtime in microseconds: 8381462 us
+gauss runtime in milliseconds: 8381 ms
+gauss runtime in seconds: 8 s
+--------------------------
+seq_pivot2 with 2200
+the input matrix size: 2200
+gauss runtime in microseconds: 11116710 us
+gauss runtime in milliseconds: 11116 ms
+gauss runtime in seconds: 11 s
+--------------------------
+seq_pivot2 with 2400
+the input matrix size: 2400
+gauss runtime in microseconds: 14495304 us
+gauss runtime in milliseconds: 14495 ms
+gauss runtime in seconds: 14 s
+--------------------------
+seq_pivot2 with 2600
+the input matrix size: 2600
+gauss runtime in microseconds: 18390941 us
+gauss runtime in milliseconds: 18390 ms
+gauss runtime in seconds: 18 s
+--------------------------
+seq_pivot2 with 2800
+the input matrix size: 2800
+gauss runtime in microseconds: 22987505 us
+gauss runtime in milliseconds: 22988 ms
+gauss runtime in seconds: 23 s
+--------------------------
+seq_pivot2 with 3000
+the input matrix size: 3000
+gauss runtime in microseconds: 28130201 us
+gauss runtime in milliseconds: 28130 ms
+gauss runtime in seconds: 28 s
