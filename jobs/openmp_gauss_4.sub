@@ -2,7 +2,7 @@
 #SBATCH -J GAUSS_OPENMP
 #SBATCH --ntasks=8
 #SBATCH --export=all
-#SBATCH --out=../foundryOutputs/openmp_gauss/openmp_gauss_4-%j.out
+#SBATCH --out=./foundryOutputs/openmp_gauss/openmp_gauss_4-%j.out
 #SBATCH --time=0-00:10:00
 #SBATCH --mail-type=begin,end,fail,requeue
 

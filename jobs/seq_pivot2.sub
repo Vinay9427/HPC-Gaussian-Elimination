@@ -2,7 +2,7 @@
 #SBATCH -J SEQ_PIVOT2
 #SBATCH --ntasks=8
 #SBATCH --export=all
-#SBATCH --out=../foundryOutputs/seq_pivot/seq_pivot2-%j.out
+#SBATCH --out=./foundryOutputs/seq_pivot/seq_pivot2-%j.out
 #SBATCH --time=0-00:10:00
 #SBATCH --mail-type=begin,end,fail,requeue
 

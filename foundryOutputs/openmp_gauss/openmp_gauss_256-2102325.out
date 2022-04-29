@@ -1,74 +1,74 @@
 openmp_gauss with 256 threads for N 200
 Computing using OpenMP.
 
-Elapsed time = 0.137168s for Threads = 256.
+Elapsed time = 0.135797s for Threads = 256.
 --------------------------
 openmp_gauss with 256 threads for N 400
 Computing using OpenMP.
 
-Elapsed time = 0.278809s for Threads = 256.
+Elapsed time = 0.271852s for Threads = 256.
 --------------------------
 openmp_gauss with 256 threads for N 600
 Computing using OpenMP.
 
-Elapsed time = 0.431664s for Threads = 256.
+Elapsed time = 0.433939s for Threads = 256.
 --------------------------
 openmp_gauss with 256 threads for N 800
 Computing using OpenMP.
 
-Elapsed time = 0.615172s for Threads = 256.
+Elapsed time = 0.555574s for Threads = 256.
 --------------------------
 openmp_gauss with 256 threads for N 1000
 Computing using OpenMP.
 
-Elapsed time = 0.867889s for Threads = 256.
+Elapsed time = 0.715483s for Threads = 256.
 --------------------------
 openmp_gauss with 256 threads for N 1200
 Computing using OpenMP.
 
-Elapsed time = 1.144417s for Threads = 256.
+Elapsed time = 0.872071s for Threads = 256.
 --------------------------
 openmp_gauss with 256 threads for N 1400
 Computing using OpenMP.
 
-Elapsed time = 1.462752s for Threads = 256.
+Elapsed time = 1.050100s for Threads = 256.
 --------------------------
 openmp_gauss with 256 threads for N 1600
 Computing using OpenMP.
 
-Elapsed time = 1.874022s for Threads = 256.
+Elapsed time = 1.181614s for Threads = 256.
 --------------------------
 openmp_gauss with 256 threads for N 1800
 Computing using OpenMP.
 
-Elapsed time = 2.399842s for Threads = 256.
+Elapsed time = 1.410761s for Threads = 256.
 --------------------------
 openmp_gauss with 256 threads for N 2000
 Computing using OpenMP.
 
-Elapsed time = 2.883505s for Threads = 256.
+Elapsed time = 1.518933s for Threads = 256.
 --------------------------
 openmp_gauss with 256 threads for N 2200
 Computing using OpenMP.
 
-Elapsed time = 3.547769s for Threads = 256.
+Elapsed time = 1.929014s for Threads = 256.
 --------------------------
 openmp_gauss with 256 threads for N 2400
 Computing using OpenMP.
 
-Elapsed time = 4.254771s for Threads = 256.
+Elapsed time = 2.172643s for Threads = 256.
 --------------------------
 openmp_gauss with 256 threads for N 2600
 Computing using OpenMP.
 
-Elapsed time = 5.157399s for Threads = 256.
+Elapsed time = 2.436355s for Threads = 256.
 --------------------------
 openmp_gauss with 256 threads for N 2800
 Computing using OpenMP.
 
-Elapsed time = 6.233888s for Threads = 256.
+Elapsed time = 2.913919s for Threads = 256.
 --------------------------
 openmp_gauss with 256 threads for N 3000
 Computing using OpenMP.
 
-Elapsed time = 7.348436s for Threads = 256.
+Elapsed time = 3.343786s for Threads = 256.

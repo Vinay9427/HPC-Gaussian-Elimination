@@ -1,74 +1,74 @@
 openmp_gauss with 64 threads for N 200
 Computing using OpenMP.
 
-Elapsed time = 0.085301s for Threads = 64.
+Elapsed time = 0.074831s for Threads = 64.
 --------------------------
 openmp_gauss with 64 threads for N 400
 Computing using OpenMP.
 
-Elapsed time = 0.125344s for Threads = 64.
+Elapsed time = 0.112530s for Threads = 64.
 --------------------------
 openmp_gauss with 64 threads for N 600
 Computing using OpenMP.
 
-Elapsed time = 0.232983s for Threads = 64.
+Elapsed time = 0.261635s for Threads = 64.
 --------------------------
 openmp_gauss with 64 threads for N 800
 Computing using OpenMP.
 
-Elapsed time = 0.398481s for Threads = 64.
+Elapsed time = 0.441689s for Threads = 64.
 --------------------------
 openmp_gauss with 64 threads for N 1000
 Computing using OpenMP.
 
-Elapsed time = 0.510488s for Threads = 64.
+Elapsed time = 0.467169s for Threads = 64.
 --------------------------
 openmp_gauss with 64 threads for N 1200
 Computing using OpenMP.
 
-Elapsed time = 0.816040s for Threads = 64.
+Elapsed time = 0.584327s for Threads = 64.
 --------------------------
 openmp_gauss with 64 threads for N 1400
 Computing using OpenMP.
 
-Elapsed time = 1.143609s for Threads = 64.
+Elapsed time = 0.606016s for Threads = 64.
 --------------------------
 openmp_gauss with 64 threads for N 1600
 Computing using OpenMP.
 
-Elapsed time = 1.567767s for Threads = 64.
+Elapsed time = 0.877086s for Threads = 64.
 --------------------------
 openmp_gauss with 64 threads for N 1800
 Computing using OpenMP.
 
-Elapsed time = 2.037420s for Threads = 64.
+Elapsed time = 0.989283s for Threads = 64.
 --------------------------
 openmp_gauss with 64 threads for N 2000
 Computing using OpenMP.
 
-Elapsed time = 2.508264s for Threads = 64.
+Elapsed time = 1.159463s for Threads = 64.
 --------------------------
 openmp_gauss with 64 threads for N 2200
 Computing using OpenMP.
 
-Elapsed time = 3.095041s for Threads = 64.
+Elapsed time = 1.331756s for Threads = 64.
 --------------------------
 openmp_gauss with 64 threads for N 2400
 Computing using OpenMP.
 
-Elapsed time = 3.750700s for Threads = 64.
+Elapsed time = 1.592984s for Threads = 64.
 --------------------------
 openmp_gauss with 64 threads for N 2600
 Computing using OpenMP.
 
-Elapsed time = 4.572542s for Threads = 64.
+Elapsed time = 1.953376s for Threads = 64.
 --------------------------
 openmp_gauss with 64 threads for N 2800
 Computing using OpenMP.
 
-Elapsed time = 5.420225s for Threads = 64.
+Elapsed time = 2.383262s for Threads = 64.
 --------------------------
 openmp_gauss with 64 threads for N 3000
 Computing using OpenMP.
 
-Elapsed time = 6.340933s for Threads = 64.
+Elapsed time = 2.670458s for Threads = 64.

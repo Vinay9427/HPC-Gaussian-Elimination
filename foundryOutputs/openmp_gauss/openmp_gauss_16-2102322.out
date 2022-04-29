@@ -1,74 +1,74 @@
 openmp_gauss with 16 threads for N 200
 Computing using OpenMP.
 
-Elapsed time = 0.012744s for Threads = 16.
+Elapsed time = 0.014628s for Threads = 16.
 --------------------------
 openmp_gauss with 16 threads for N 400
 Computing using OpenMP.
 
-Elapsed time = 0.037187s for Threads = 16.
+Elapsed time = 0.043715s for Threads = 16.
 --------------------------
 openmp_gauss with 16 threads for N 600
 Computing using OpenMP.
 
-Elapsed time = 0.075162s for Threads = 16.
+Elapsed time = 0.080687s for Threads = 16.
 --------------------------
 openmp_gauss with 16 threads for N 800
 Computing using OpenMP.
 
-Elapsed time = 0.154217s for Threads = 16.
+Elapsed time = 0.149558s for Threads = 16.
 --------------------------
 openmp_gauss with 16 threads for N 1000
 Computing using OpenMP.
 
-Elapsed time = 0.255605s for Threads = 16.
+Elapsed time = 0.268995s for Threads = 16.
 --------------------------
 openmp_gauss with 16 threads for N 1200
 Computing using OpenMP.
 
-Elapsed time = 0.408577s for Threads = 16.
+Elapsed time = 0.463150s for Threads = 16.
 --------------------------
 openmp_gauss with 16 threads for N 1400
 Computing using OpenMP.
 
-Elapsed time = 0.649566s for Threads = 16.
+Elapsed time = 0.693039s for Threads = 16.
 --------------------------
 openmp_gauss with 16 threads for N 1600
 Computing using OpenMP.
 
-Elapsed time = 0.939643s for Threads = 16.
+Elapsed time = 0.982928s for Threads = 16.
 --------------------------
 openmp_gauss with 16 threads for N 1800
 Computing using OpenMP.
 
-Elapsed time = 1.293588s for Threads = 16.
+Elapsed time = 1.323267s for Threads = 16.
 --------------------------
 openmp_gauss with 16 threads for N 2000
 Computing using OpenMP.
 
-Elapsed time = 1.731873s for Threads = 16.
+Elapsed time = 1.797763s for Threads = 16.
 --------------------------
 openmp_gauss with 16 threads for N 2200
 Computing using OpenMP.
 
-Elapsed time = 2.214335s for Threads = 16.
+Elapsed time = 2.342305s for Threads = 16.
 --------------------------
 openmp_gauss with 16 threads for N 2400
 Computing using OpenMP.
 
-Elapsed time = 2.844397s for Threads = 16.
+Elapsed time = 3.028875s for Threads = 16.
 --------------------------
 openmp_gauss with 16 threads for N 2600
 Computing using OpenMP.
 
-Elapsed time = 3.561469s for Threads = 16.
+Elapsed time = 3.758975s for Threads = 16.
 --------------------------
 openmp_gauss with 16 threads for N 2800
 Computing using OpenMP.
 
-Elapsed time = 4.356352s for Threads = 16.
+Elapsed time = 4.573487s for Threads = 16.
 --------------------------
 openmp_gauss with 16 threads for N 3000
 Computing using OpenMP.
 
-Elapsed time = 5.221519s for Threads = 16.
+Elapsed time = 5.515004s for Threads = 16.

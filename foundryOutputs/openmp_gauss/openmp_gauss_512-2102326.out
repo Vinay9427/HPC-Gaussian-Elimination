@@ -1,74 +1,74 @@
 openmp_gauss with 512 threads for N 200
 Computing using OpenMP.
 
-Elapsed time = 0.278921s for Threads = 512.
+Elapsed time = 0.280318s for Threads = 512.
 --------------------------
 openmp_gauss with 512 threads for N 400
 Computing using OpenMP.
 
-Elapsed time = 0.569849s for Threads = 512.
+Elapsed time = 0.558093s for Threads = 512.
 --------------------------
 openmp_gauss with 512 threads for N 600
 Computing using OpenMP.
 
-Elapsed time = 0.888335s for Threads = 512.
+Elapsed time = 0.791842s for Threads = 512.
 --------------------------
 openmp_gauss with 512 threads for N 800
 Computing using OpenMP.
 
-Elapsed time = 1.215255s for Threads = 512.
+Elapsed time = 1.047712s for Threads = 512.
 --------------------------
 openmp_gauss with 512 threads for N 1000
 Computing using OpenMP.
 
-Elapsed time = 1.729556s for Threads = 512.
+Elapsed time = 1.308726s for Threads = 512.
 --------------------------
 openmp_gauss with 512 threads for N 1200
 Computing using OpenMP.
 
-Elapsed time = 2.409092s for Threads = 512.
+Elapsed time = 1.574569s for Threads = 512.
 --------------------------
 openmp_gauss with 512 threads for N 1400
 Computing using OpenMP.
 
-Elapsed time = 3.008847s for Threads = 512.
+Elapsed time = 1.850963s for Threads = 512.
 --------------------------
 openmp_gauss with 512 threads for N 1600
 Computing using OpenMP.
 
-Elapsed time = 3.585868s for Threads = 512.
+Elapsed time = 2.167278s for Threads = 512.
 --------------------------
 openmp_gauss with 512 threads for N 1800
 Computing using OpenMP.
 
-Elapsed time = 4.535364s for Threads = 512.
+Elapsed time = 2.456321s for Threads = 512.
 --------------------------
 openmp_gauss with 512 threads for N 2000
 Computing using OpenMP.
 
-Elapsed time = 5.149067s for Threads = 512.
+Elapsed time = 2.990109s for Threads = 512.
 --------------------------
 openmp_gauss with 512 threads for N 2200
 Computing using OpenMP.
 
-Elapsed time = 5.928592s for Threads = 512.
+Elapsed time = 3.603000s for Threads = 512.
 --------------------------
 openmp_gauss with 512 threads for N 2400
 Computing using OpenMP.
 
-Elapsed time = 6.965691s for Threads = 512.
+Elapsed time = 3.714507s for Threads = 512.
 --------------------------
 openmp_gauss with 512 threads for N 2600
 Computing using OpenMP.
 
-Elapsed time = 8.357038s for Threads = 512.
+Elapsed time = 4.197842s for Threads = 512.
 --------------------------
 openmp_gauss with 512 threads for N 2800
 Computing using OpenMP.
 
-Elapsed time = 9.300205s for Threads = 512.
+Elapsed time = 4.538591s for Threads = 512.
 --------------------------
 openmp_gauss with 512 threads for N 3000
 Computing using OpenMP.
 
-Elapsed time = 10.876709s for Threads = 512.
+Elapsed time = 5.262466s for Threads = 512.

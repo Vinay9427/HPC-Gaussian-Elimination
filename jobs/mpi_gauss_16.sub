@@ -3,7 +3,7 @@
 #SBATCH --ntasks=16
 #SBATCH --nodes=1
 #SBATCH --export=all
-#SBATCH --out=../foundryOutputs/mpi_gauss/mpi_gauss_16-%j.out
+#SBATCH --out=./foundryOutputs/mpi_gauss/mpi_gauss_16-%j.out
 #SBATCH --time=0-01:00:00
 #SBATCH --mail-type=begin,end,fail,requeue
 

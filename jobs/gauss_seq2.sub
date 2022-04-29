@@ -2,7 +2,7 @@
 #SBATCH -J SEQ_GAUSS2
 #SBATCH --ntasks=1
 #SBATCH --export=all
-#SBATCH --out=../foundryOutputs/seq_gauss/gauss_seq2-%j.out
+#SBATCH --out=./foundryOutputs/seq_gauss/gauss_seq2-%j.out
 #SBATCH --time=0-00:10:00
 #SBATCH --mail-type=begin,end,fail,requeue
 
