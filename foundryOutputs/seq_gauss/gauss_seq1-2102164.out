@@ -1,0 +1,89 @@
+gauss_seq1 with 200
+the input matrix size: 200
+gauss runtime in microseconds: 8730 us
+gauss runtime in milliseconds: 8 ms
+gauss runtime in seconds: 0 s
+--------------------------
+gauss_seq1 with 400
+the input matrix size: 400
+gauss runtime in microseconds: 63825 us
+gauss runtime in milliseconds: 63 ms
+gauss runtime in seconds: 0 s
+--------------------------
+gauss_seq1 with 600
+the input matrix size: 600
+gauss runtime in microseconds: 206779 us
+gauss runtime in milliseconds: 207 ms
+gauss runtime in seconds: 1 s
+--------------------------
+gauss_seq1 with 800
+the input matrix size: 800
+gauss runtime in microseconds: 489550 us
+gauss runtime in milliseconds: 489 ms
+gauss runtime in seconds: 0 s
+--------------------------
+gauss_seq1 with 1000
+the input matrix size: 1000
+gauss runtime in microseconds: 955433 us
+gauss runtime in milliseconds: 956 ms
+gauss runtime in seconds: 1 s
+--------------------------
+gauss_seq1 with 1200
+the input matrix size: 1200
+gauss runtime in microseconds: 1661544 us
+gauss runtime in milliseconds: 1661 ms
+gauss runtime in seconds: 1 s
+--------------------------
+gauss_seq1 with 1400
+the input matrix size: 1400
+gauss runtime in microseconds: 2651323 us
+gauss runtime in milliseconds: 2651 ms
+gauss runtime in seconds: 2 s
+--------------------------
+gauss_seq1 with 1600
+the input matrix size: 1600
+gauss runtime in microseconds: 3968052 us
+gauss runtime in milliseconds: 3969 ms
+gauss runtime in seconds: 4 s
+--------------------------
+gauss_seq1 with 1800
+the input matrix size: 1800
+gauss runtime in microseconds: 5652282 us
+gauss runtime in milliseconds: 5652 ms
+gauss runtime in seconds: 5 s
+--------------------------
+gauss_seq1 with 2000
+the input matrix size: 2000
+gauss runtime in microseconds: 7789193 us
+gauss runtime in milliseconds: 7790 ms
+gauss runtime in seconds: 8 s
+--------------------------
+gauss_seq1 with 2200
+the input matrix size: 2200
+gauss runtime in microseconds: 10385202 us
+gauss runtime in milliseconds: 10386 ms
+gauss runtime in seconds: 11 s
+--------------------------
+gauss_seq1 with 2400
+the input matrix size: 2400
+gauss runtime in microseconds: 13470569 us
+gauss runtime in milliseconds: 13471 ms
+gauss runtime in seconds: 14 s
+--------------------------
+gauss_seq1 with 2600
+the input matrix size: 2600
+gauss runtime in microseconds: 17123199 us
+gauss runtime in milliseconds: 17123 ms
+gauss runtime in seconds: 17 s
+--------------------------
+gauss_seq1 with 2800
+the input matrix size: 2800
+gauss runtime in microseconds: 21375029 us
+gauss runtime in milliseconds: 21375 ms
+gauss runtime in seconds: 21 s
+--------------------------
+gauss_seq1 with 3000
+the input matrix size: 3000
+gauss runtime in microseconds: 26233130 us
+gauss runtime in milliseconds: 26234 ms
+gauss runtime in seconds: 27 s

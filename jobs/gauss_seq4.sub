@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -J SEQ_GAUSS4
-#SBATCH --ntasks=8
+#SBATCH --ntasks=1
 #SBATCH --export=all
 #SBATCH --out=../foundryOutputs/seq_gauss/gauss_seq4-%j.out
 #SBATCH --time=0-00:10:00

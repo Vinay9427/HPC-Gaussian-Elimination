@@ -11,7 +11,7 @@ int N;            /* Matrix size */
 int seed = 0;     /* Random seed */
 
 /* Matrices and vectors */
-int A[MAXN][MAXN], B[MAXN], X[MAXN];
+double A[MAXN][MAXN], B[MAXN], X[MAXN];
 
 void ReadInputAndInitializeMatrix(int argc, char **argv)
 {
@@ -25,9 +25,9 @@ void ReadInputAndInitializeMatrix(int argc, char **argv)
     {
         for (col = 0; col < N; col++)
         {
-            fscanf(inputfp, "%d", &A[row][col]);
+            fscanf(inputfp, "%lf", &A[row][col]);
         }
-        fscanf(inputfp, "%d", &B[row]);
+        fscanf(inputfp, "%lf", &B[row]);
         X[row] = 0;
     }
     fclose(inputfp);
@@ -62,13 +62,13 @@ void print_inputs()
         {
             for (col = 0; col < N; col++)
             {
-                printf("%d%s", A[row][col], (col < N - 1) ? ", " : ";\n\t");
+                printf("%lf%s", A[row][col], (col < N - 1) ? ", " : ";\n\t");
             }
         }
         printf("\nB = [");
         for (col = 0; col < N; col++)
         {
-            printf("%d%s", B[col], (col < N - 1) ? "; " : "]\n");
+            printf("%lf%s", B[col], (col < N - 1) ? "; " : "]\n");
         }
     }
 }
@@ -81,7 +81,7 @@ void print_X()
         printf("\nX = [");
         for (row = 0; row < N; row++)
         {
-            printf("%d%s", X[row], (row < N - 1) ? "; " : "]\n");
+            printf("%lf%s", X[row], (row < N - 1) ? "; " : "]\n");
         }
     }
 }
@@ -89,7 +89,7 @@ void print_X()
 void gauss()
 {
     int i, j, k;
-    int temp;
+    double temp;
 
     /* Gaussian elimination */
     for (i = 0; i < N - 1; i++)

@@ -1,89 +1,89 @@
 gauss_seq2 with 200
 the input matrix size: 200
-gauss runtime in microseconds: 8016 us
+gauss runtime in microseconds: 8303 us
 gauss runtime in milliseconds: 8 ms
 gauss runtime in seconds: 0 s
 --------------------------
 gauss_seq2 with 400
 the input matrix size: 400
-gauss runtime in microseconds: 63218 us
-gauss runtime in milliseconds: 63 ms
+gauss runtime in microseconds: 66248 us
+gauss runtime in milliseconds: 66 ms
 gauss runtime in seconds: 0 s
 --------------------------
 gauss_seq2 with 600
 the input matrix size: 600
-gauss runtime in microseconds: 216785 us
-gauss runtime in milliseconds: 216 ms
+gauss runtime in microseconds: 222234 us
+gauss runtime in milliseconds: 222 ms
 gauss runtime in seconds: 0 s
 --------------------------
 gauss_seq2 with 800
 the input matrix size: 800
-gauss runtime in microseconds: 509784 us
-gauss runtime in milliseconds: 510 ms
+gauss runtime in microseconds: 529641 us
+gauss runtime in milliseconds: 530 ms
 gauss runtime in seconds: 1 s
 --------------------------
 gauss_seq2 with 1000
 the input matrix size: 1000
-gauss runtime in microseconds: 1006624 us
-gauss runtime in milliseconds: 1006 ms
+gauss runtime in microseconds: 1045989 us
+gauss runtime in milliseconds: 1045 ms
 gauss runtime in seconds: 1 s
 --------------------------
 gauss_seq2 with 1200
 the input matrix size: 1200
-gauss runtime in microseconds: 1845458 us
-gauss runtime in milliseconds: 1846 ms
+gauss runtime in microseconds: 1821917 us
+gauss runtime in milliseconds: 1822 ms
 gauss runtime in seconds: 2 s
 --------------------------
 gauss_seq2 with 1400
 the input matrix size: 1400
-gauss runtime in microseconds: 2724260 us
-gauss runtime in milliseconds: 2725 ms
+gauss runtime in microseconds: 2895162 us
+gauss runtime in milliseconds: 2896 ms
 gauss runtime in seconds: 3 s
 --------------------------
 gauss_seq2 with 1600
 the input matrix size: 1600
-gauss runtime in microseconds: 4519913 us
-gauss runtime in milliseconds: 4520 ms
-gauss runtime in seconds: 5 s
+gauss runtime in microseconds: 4331928 us
+gauss runtime in milliseconds: 4331 ms
+gauss runtime in seconds: 4 s
 --------------------------
 gauss_seq2 with 1800
 the input matrix size: 1800
-gauss runtime in microseconds: 6128436 us
-gauss runtime in milliseconds: 6128 ms
+gauss runtime in microseconds: 6155237 us
+gauss runtime in milliseconds: 6155 ms
 gauss runtime in seconds: 6 s
 --------------------------
 gauss_seq2 with 2000
 the input matrix size: 2000
-gauss runtime in microseconds: 7905343 us
-gauss runtime in milliseconds: 7905 ms
-gauss runtime in seconds: 7 s
+gauss runtime in microseconds: 8446516 us
+gauss runtime in milliseconds: 8446 ms
+gauss runtime in seconds: 8 s
 --------------------------
 gauss_seq2 with 2200
 the input matrix size: 2200
-gauss runtime in microseconds: 11433197 us
-gauss runtime in milliseconds: 11433 ms
+gauss runtime in microseconds: 11221238 us
+gauss runtime in milliseconds: 11221 ms
 gauss runtime in seconds: 11 s
 --------------------------
 gauss_seq2 with 2400
 the input matrix size: 2400
-gauss runtime in microseconds: 14470520 us
-gauss runtime in milliseconds: 14471 ms
-gauss runtime in seconds: 15 s
+gauss runtime in microseconds: 14553585 us
+gauss runtime in milliseconds: 14553 ms
+gauss runtime in seconds: 14 s
 --------------------------
 gauss_seq2 with 2600
 the input matrix size: 2600
-gauss runtime in microseconds: 18626892 us
-gauss runtime in milliseconds: 18627 ms
+gauss runtime in microseconds: 18512282 us
+gauss runtime in milliseconds: 18513 ms
 gauss runtime in seconds: 19 s
 --------------------------
 gauss_seq2 with 2800
 the input matrix size: 2800
-gauss runtime in microseconds: 23316386 us
-gauss runtime in milliseconds: 23316 ms
+gauss runtime in microseconds: 23117541 us
+gauss runtime in milliseconds: 23117 ms
 gauss runtime in seconds: 23 s
 --------------------------
 gauss_seq2 with 3000
 the input matrix size: 3000
-gauss runtime in microseconds: 28622394 us
-gauss runtime in milliseconds: 28623 ms
-gauss runtime in seconds: 29 s
+gauss runtime in microseconds: 28187096 us
+gauss runtime in milliseconds: 28187 ms
+gauss runtime in seconds: 28 s
