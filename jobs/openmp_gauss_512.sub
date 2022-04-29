@@ -1,0 +1,84 @@
+#!/bin/bash
+#SBATCH -J GAUSS_OPENMP
+#SBATCH --ntasks=8
+#SBATCH --export=all
+#SBATCH --out=../foundryOutputs/openmp_gauss/openmp_gauss_512-%j.out
+#SBATCH --time=0-00:50:00
+#SBATCH --mail-type=begin,end,fail,requeue
+
+echo "openmp_gauss with 512 threads for N 200"
+../bin/openmp_gauss 512 ../input/input_200.txt
+
+echo "--------------------------"
+
+echo "openmp_gauss with 512 threads for N 400"
+../bin/openmp_gauss 512 ../input/input_400.txt
+
+echo "--------------------------"
+
+echo "openmp_gauss with 512 threads for N 600"
+../bin/openmp_gauss 512 ../input/input_600.txt
+
+
+echo "--------------------------"
+
+echo "openmp_gauss with 512 threads for N 800"
+../bin/openmp_gauss 512 ../input/input_800.txt
+
+
+echo "--------------------------"
+
+echo "openmp_gauss with 512 threads for N 1000"
+../bin/openmp_gauss 512 ../input/input_1000.txt
+
+
+echo "--------------------------"
+
+echo "openmp_gauss with 512 threads for N 1200"
+../bin/openmp_gauss 512 ../input/input_1200.txt
+
+
+echo "--------------------------"
+
+echo "openmp_gauss with 512 threads for N 1400"
+../bin/openmp_gauss 512 ../input/input_1400.txt
+
+echo "--------------------------"
+
+echo "openmp_gauss with 512 threads for N 1600"
+../bin/openmp_gauss 512 ../input/input_1600.txt
+
+echo "--------------------------"
+
+echo "openmp_gauss with 512 threads for N 1800"
+../bin/openmp_gauss 512 ../input/input_1800.txt
+
+echo "--------------------------"
+
+echo "openmp_gauss with 512 threads for N 2000"
+../bin/openmp_gauss 512 ../input/input_2000.txt
+
+echo "--------------------------"
+
+echo "openmp_gauss with 512 threads for N 2200"
+../bin/openmp_gauss 512 ../input/input_2200.txt
+
+echo "--------------------------"
+
+echo "openmp_gauss with 512 threads for N 2400"
+../bin/openmp_gauss 512 ../input/input_2400.txt
+
+echo "--------------------------"
+
+echo "openmp_gauss with 512 threads for N 2600"
+../bin/openmp_gauss 512 ../input/input_2600.txt
+
+echo "--------------------------"
+
+echo "openmp_gauss with 512 threads for N 2800"
+../bin/openmp_gauss 512 ../input/input_2800.txt
+
+echo "--------------------------"
+
+echo "openmp_gauss with 512 threads for N 3000"
+../bin/openmp_gauss 512 ../input/input_3000.txt

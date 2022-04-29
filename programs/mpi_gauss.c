@@ -5,7 +5,7 @@
 #include <sys/time.h>
 #include <time.h>
 #include <mpi.h>
-#define MAXN 3000
+#define MAXN 3000// Maximum Dimension for Matrix 
 
 void backSubstitution();
 void displayMat();
@@ -13,7 +13,7 @@ void printAnswer();
 void gaussian_mpi(int N);
 
 int proc,id,N;
-double A[MAXN][MAXN],B[MAXN],X[MAXN];
+static double A[MAXN][MAXN],B[MAXN],X[MAXN];
 
 
 void ReadInputAndInitializeMatrix(int argc, char **argv)
@@ -39,7 +39,7 @@ void ReadInputAndInitializeMatrix(int argc, char **argv)
 void displayMat()
 {	
 	int i,j;
-	if (N <= 10)
+	if (N <= 50)
     {
 		printf("Displaying Initial Matrix.\n");
 		for (i=0;i<N;i++)
@@ -99,10 +99,8 @@ void gaussian_mpi(int N)
 		  		for (i=k+1+p;i<N;i+=proc)
 		  		{
 				/* Sending X and y matrix from oth to all other processors using non blocking send*/
-				   MPI_Isend(&A[i], N, MPI_DOUBLE, p, 0, MPI_COMM_WORLD, &request);
-				   MPI_Wait(&request, &status);
-				   MPI_Isend(&B[i], 1, MPI_DOUBLE, p, 0, MPI_COMM_WORLD, &request);
-				   MPI_Wait(&request, &status);
+				   MPI_Send(&A[i], N, MPI_DOUBLE, p, 0, MPI_COMM_WORLD);
+				   MPI_Send(&B[i], 1, MPI_DOUBLE, p, 0, MPI_COMM_WORLD);
 		  		}
 			}
 			// implementing gaussian elimination 
@@ -145,13 +143,11 @@ void gaussian_mpi(int N)
 				    A[i][j] -= A[k][j] * mp;
 				}
 				B[i] -= B[k] * mp;
-				MPI_Isend(&A[i], N, MPI_DOUBLE, 0, 1, MPI_COMM_WORLD, &request);						    
-				MPI_Wait(&request, &status);		
-				MPI_Isend(&B[i], 1, MPI_DOUBLE, 0, 1, MPI_COMM_WORLD, &request);
-				MPI_Wait(&request, &status);
+				MPI_Send(&A[i], N, MPI_DOUBLE, 0, 1, MPI_COMM_WORLD);						    
+				MPI_Send(&B[i], 1, MPI_DOUBLE, 0, 1, MPI_COMM_WORLD);
 			}
 		}
-		 MPI_Barrier(MPI_COMM_WORLD);//Waiting for all processors
+		 //MPI_Barrier(MPI_COMM_WORLD);//Waiting for all processors
 	}
 }
 
@@ -160,7 +156,7 @@ void gaussian_mpi(int N)
 void printAnswer()
 {
 	int i;
-	if(N <=20){
+	if(N <= 100){
 		printf("\nSolution Vector (x):\n\n");
 		for (i=0;i<N;i++)
 		{
@@ -189,20 +185,19 @@ int main(int argc,char *argv[])
 	{
         ReadInputAndInitializeMatrix(argc, argv);
 		displayMat();//displaying the matrix
+		/* Start Clock */
  		printf("\nStarting clock.\n");
         start = MPI_Wtime();				
 	}
 	
 	gaussian_mpi(N);//implementing the gaussian elimination
-	
-	if(id==0)
+	if(id==0)   
 	{
 		backSubstitution();
         end = MPI_Wtime();	
   		printf("Stopped clock.\n");
 		printAnswer();
         printf("\nTime for Execution = %f s.\n", end-start);
-
 	}
 	MPI_Finalize(); //Finalizing the MPI
   	return 0;

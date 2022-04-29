@@ -1,0 +1,869 @@
+mpi_gauss with 32 processors for N 10
+[compute-14-3:31256] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31254] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31225] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31223] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31232] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31230] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31246] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31250] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31231] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31245] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31249] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31228] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31239] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31220] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31222] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31234] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31240] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31278] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31248] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31226] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31227] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31221] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31224] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31229] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31247] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31241] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31243] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31251] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31235] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31244] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31219] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31236] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Displaying Initial Matrix.
+| 2.000000 8.000000 10.000000 7.000000 1.000000 1.000000 6.000000 2.000000 9.000000 8.000000 | | 8.000000 |
+| 5.000000 3.000000 10.000000 3.000000 8.000000 1.000000 3.000000 3.000000 10.000000 1.000000 | | 7.000000 |
+| 9.000000 6.000000 6.000000 3.000000 10.000000 6.000000 10.000000 3.000000 4.000000 3.000000 | | 3.000000 |
+| 4.000000 9.000000 5.000000 6.000000 7.000000 6.000000 5.000000 4.000000 5.000000 9.000000 | | 8.000000 |
+| 4.000000 2.000000 8.000000 6.000000 6.000000 10.000000 6.000000 7.000000 8.000000 6.000000 | | 2.000000 |
+| 6.000000 10.000000 3.000000 1.000000 9.000000 6.000000 4.000000 2.000000 10.000000 9.000000 | | 2.000000 |
+| 4.000000 5.000000 8.000000 1.000000 9.000000 1.000000 6.000000 7.000000 1.000000 1.000000 | | 10.000000 |
+| 8.000000 7.000000 6.000000 9.000000 4.000000 2.000000 6.000000 9.000000 5.000000 1.000000 | | 8.000000 |
+| 7.000000 3.000000 8.000000 2.000000 9.000000 1.000000 3.000000 7.000000 3.000000 6.000000 | | 1.000000 |
+| 10.000000 7.000000 1.000000 1.000000 4.000000 10.000000 3.000000 4.000000 9.000000 10.000000 | | 10.000000 |
+
+Starting clock.
+elapsed time = 0.000390
+Stopped clock.
+
+Solution Vector (x):
+
+|1.171555|
+|3.632277|
+|3.967463|
+|-0.893575|
+|-1.685127|
+|3.053160|
+|-3.434138|
+|-0.968981|
+|-2.102032|
+|-2.090987|
+
+Time for Execution = 0.000499 s.
+--------------------------
+mpi_gauss with 32 processors for N 50
+[compute-14-3:31593] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31594] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31596] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31595] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31598] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31597] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31601] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31599] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31602] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31600] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31607] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31604] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31622] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31603] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31612] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31610] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31620] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31616] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31625] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31628] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31634] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31632] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31631] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31636] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31639] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31643] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31646] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31650] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31657] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31652] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31671] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31669] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31593:0:31593] Caught signal 11 (Segmentation fault: address not mapped to object at address (nil))
+==== backtrace (tid:  31593) ====
+ 0  /usr/lib/libucs.so.0(ucs_handle_error+0x124) [0x7fcb87bb3e04]
+ 1  /usr/lib/libucs.so.0(+0x2422c) [0x7fcb87bb422c]
+ 2  /usr/lib/libucs.so.0(+0x244a4) [0x7fcb87bb44a4]
+ 3  /lib/x86_64-linux-gnu/libc.so.6(__isoc99_fscanf+0x6d) [0x7fcb906911fd]
+ 4  ../bin/mpi_gauss() [0x401250]
+ 5  ../bin/mpi_gauss() [0x401aef]
+ 6  /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7fcb90636c87]
+ 7  ../bin/mpi_gauss() [0x40114a]
+=================================
+[compute-14-3:31593] *** Process received signal ***
+[compute-14-3:31593] Signal: Segmentation fault (11)
+[compute-14-3:31593] Signal code:  (-6)
+[compute-14-3:31593] Failing at address: 0x5fc271900007b69
+[compute-14-3:31593] [ 0] /lib/x86_64-linux-gnu/libpthread.so.0(+0x12980)[0x7fcb90a18980]
+[compute-14-3:31593] [ 1] /lib/x86_64-linux-gnu/libc.so.6(__isoc99_fscanf+0x6d)[0x7fcb906911fd]
+[compute-14-3:31593] [ 2] ../bin/mpi_gauss[0x401250]
+[compute-14-3:31593] [ 3] ../bin/mpi_gauss[0x401aef]
+[compute-14-3:31593] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fcb90636c87]
+[compute-14-3:31593] [ 5] ../bin/mpi_gauss[0x40114a]
+[compute-14-3:31593] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 31593 on node compute-14-3 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------
+mpi_gauss with 32 processors for N 100
+[compute-14-3:31955] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31954] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31953] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31956] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31958] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31962] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31968] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31961] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31975] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31960] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31971] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31970] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31982] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31983] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31973] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32011] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31989] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32006] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31992] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:31984] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32025] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32008] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32035] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32029] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32054] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32031] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32052] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32039] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32053] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32070] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32074] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32056] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+
+Starting clock.
+elapsed time = 0.184912
+Stopped clock.
+
+Solution Vector (x):
+
+|-1.749476|
+|0.136917|
+|1.052221|
+|-1.035508|
+|-2.069934|
+|-1.043092|
+|0.059869|
+|1.143879|
+|1.131485|
+|0.774900|
+|-1.600373|
+|1.359033|
+|-0.796663|
+|-0.588407|
+|0.185373|
+|-0.066743|
+|-0.550577|
+|-0.351903|
+|-0.213065|
+|-1.942912|
+|1.429983|
+|0.525155|
+|1.662499|
+|-0.129258|
+|-1.375344|
+|-0.638306|
+|0.650798|
+|-3.015650|
+|0.166677|
+|1.108799|
+|0.375576|
+|-0.915519|
+|-0.370811|
+|0.602047|
+|0.672069|
+|0.534114|
+|0.807864|
+|-1.219435|
+|-0.913522|
+|-1.051943|
+|0.858571|
+|0.241363|
+|0.415457|
+|-0.776125|
+|-0.297659|
+|0.663484|
+|-1.258447|
+|1.996574|
+|-0.073971|
+|-0.136930|
+|0.366294|
+|-1.126218|
+|1.606825|
+|-0.036032|
+|-0.063052|
+|0.323947|
+|1.648506|
+|-1.761715|
+|-2.234966|
+|1.480040|
+|-1.259110|
+|1.042164|
+|-1.206568|
+|-1.064766|
+|0.071146|
+|-0.387159|
+|-2.080479|
+|1.104096|
+|0.880460|
+|0.310388|
+|1.125256|
+|-0.975763|
+|-1.052270|
+|0.294608|
+|0.302102|
+|-0.132718|
+|-0.131978|
+|-0.447191|
+|0.327632|
+|0.159594|
+|0.966267|
+|2.256618|
+|0.114246|
+|1.098300|
+|0.653858|
+|-0.344026|
+|0.575500|
+|-0.804900|
+|1.181278|
+|0.324861|
+|1.594682|
+|0.087361|
+|-0.203447|
+|0.927887|
+|0.419526|
+|1.498902|
+|0.952653|
+|-0.311216|
+|-0.203097|
+|-1.006971|
+
+Time for Execution = 0.185162 s.
+--------------------------
+mpi_gauss with 32 processors for N 200
+[compute-14-3:32317] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32314] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32316] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32315] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32321] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32318] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32319] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32320] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32324] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32325] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32323] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32322] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32339] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32329] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32335] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32331] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32342] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32344] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32341] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32349] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32356] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32353] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32350] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32373] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32379] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32363] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32366] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32385] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32384] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32387] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32383] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32371] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+
+Starting clock.
+elapsed time = 0.034687
+Stopped clock.
+
+Time for Execution = 0.034887 s.
+--------------------------
+mpi_gauss with 32 processors for N 400
+[compute-14-3:32674] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32678] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32676] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32675] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32677] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32679] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32683] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32680] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32682] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32681] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32687] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32693] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32686] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32689] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32690] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32699] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32695] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32702] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32700] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32708] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32719] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32713] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32711] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32724] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32729] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32737] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32710] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32734] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32747] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32740] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32744] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:32723] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+
+Starting clock.
+elapsed time = 0.165560
+Stopped clock.
+
+Time for Execution = 0.165992 s.
+--------------------------
+mpi_gauss with 32 processors for N 600
+[compute-14-3:33034] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33038] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33036] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33035] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33037] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33042] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33039] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33040] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33041] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33044] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33045] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33043] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33052] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33054] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33048] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33059] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33055] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33050] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33061] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33066] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33077] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33069] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33068] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33079] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33085] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33075] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33088] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33092] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33104] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33111] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33100] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33118] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+
+Starting clock.
+elapsed time = 0.413215
+Stopped clock.
+
+Time for Execution = 0.414059 s.
+--------------------------
+mpi_gauss with 32 processors for N 800
+[compute-14-3:33394] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33395] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33396] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33398] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33397] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33400] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33399] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33401] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33403] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33407] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33404] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33402] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33415] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33411] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33412] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33409] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33417] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33420] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33427] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33419] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33426] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33435] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33430] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33447] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33453] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33462] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33439] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33451] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33455] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33457] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33465] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33463] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+
+Starting clock.
+elapsed time = 0.882711
+Stopped clock.
+
+Time for Execution = 0.884849 s.
+--------------------------
+mpi_gauss with 32 processors for N 1000
+[compute-14-3:33755] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33759] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33757] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33756] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33760] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33762] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33761] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33758] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33764] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33765] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33763] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33766] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33770] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33771] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33774] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33772] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33775] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33786] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33780] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33787] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33789] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33779] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33793] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33788] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33812] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33803] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33794] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33809] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33819] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33817] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33822] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:33826] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+
+Starting clock.
+elapsed time = 1.684045
+Stopped clock.
+
+Time for Execution = 1.686605 s.
+--------------------------
+mpi_gauss with 32 processors for N 1200
+[compute-14-3:34118] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34119] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34121] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34120] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34123] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34122] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34124] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34125] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34129] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34126] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34127] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34130] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34135] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34134] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34139] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34147] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34144] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34142] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34149] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34154] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34150] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34158] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34162] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34169] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34163] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34176] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34181] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34159] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34185] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34191] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34188] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34209] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+
+Starting clock.
+elapsed time = 3.273937
+Stopped clock.
+
+Time for Execution = 3.277939 s.
+--------------------------
+mpi_gauss with 32 processors for N 1400
+[compute-14-3:34480] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34478] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34481] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34479] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34484] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34482] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34487] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34483] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34488] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34486] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34489] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34485] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34493] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34497] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34494] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34502] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34499] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34498] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34512] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34510] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34523] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34509] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34516] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34527] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34519] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34530] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34537] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34536] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34538] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34545] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34547] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34557] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+
+Starting clock.
+elapsed time = 5.079445
+Stopped clock.
+
+Time for Execution = 5.084644 s.
+--------------------------
+mpi_gauss with 32 processors for N 1600
+[compute-14-3:34839] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34845] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34841] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34840] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34842] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34848] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34844] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34847] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34851] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34846] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34852] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34850] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34849] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34857] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34853] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34881] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34869] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34887] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34882] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34865] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34843] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34874] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34876] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34862] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34859] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34884] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34891] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34899] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34902] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34915] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34917] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:34924] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+
+Starting clock.
+elapsed time = 7.481873
+Stopped clock.
+
+Time for Execution = 7.488719 s.
+--------------------------
+mpi_gauss with 32 processors for N 1800
+[compute-14-3:35216] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35218] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35219] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35217] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35221] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35224] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35222] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35220] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35225] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35227] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35226] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35223] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35232] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35239] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35228] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35240] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35235] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35238] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35254] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35249] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35255] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35251] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35258] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35265] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35275] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35264] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35266] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35281] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35271] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35288] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35297] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35284] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+
+Starting clock.
+elapsed time = 10.353489
+Stopped clock.
+
+Time for Execution = 10.361566 s.
+--------------------------
+mpi_gauss with 32 processors for N 2000
+[compute-14-3:35580] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35581] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35582] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35583] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35584] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35585] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35586] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35587] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35589] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35590] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35588] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35591] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35594] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35593] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35592] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35605] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35600] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35595] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35606] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35607] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35601] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35619] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35614] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35630] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35624] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35620] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35635] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35632] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35645] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35631] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35656] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35657] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+
+Starting clock.
+elapsed time = 13.890946
+Stopped clock.
+
+Time for Execution = 13.903938 s.
+--------------------------
+mpi_gauss with 32 processors for N 2200
+[compute-14-3:35947] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35948] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35946] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35954] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35955] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35953] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35961] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35956] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35965] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35950] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35952] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35945] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35949] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35967] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35963] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35951] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35984] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35991] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35986] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35977] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35972] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35979] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35995] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35980] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35988] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35973] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:35999] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36005] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36010] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36017] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36013] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36022] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+
+Starting clock.
+elapsed time = 19.851346
+Stopped clock.
+
+Time for Execution = 19.862869 s.
+--------------------------
+mpi_gauss with 32 processors for N 2400
+[compute-14-3:36322] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36323] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36325] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36324] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36326] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36327] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36330] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36328] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36329] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36337] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36332] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36331] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36336] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36346] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36338] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36339] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36347] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36341] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36352] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36357] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36360] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36370] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36368] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36365] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36384] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36388] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36380] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36382] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36358] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36396] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36401] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36349] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+
+Starting clock.
+elapsed time = 25.806852
+Stopped clock.
+
+Time for Execution = 25.821265 s.
+--------------------------
+mpi_gauss with 32 processors for N 2600
+[compute-14-3:36699] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36700] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36703] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36701] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36702] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36705] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36708] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36704] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36706] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36710] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36715] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36709] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36707] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36716] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36718] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36721] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36713] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36739] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36726] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36725] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36740] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36730] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36746] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36736] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36728] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36758] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36752] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36748] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36756] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36780] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36766] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:36787] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+
+Starting clock.
+elapsed time = 32.045566
+Stopped clock.
+
+Time for Execution = 32.063182 s.
+--------------------------
+mpi_gauss with 32 processors for N 2800
+[compute-14-3:37078] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37081] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37080] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37079] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37084] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37087] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37083] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37082] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37094] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37093] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37086] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37085] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37102] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37092] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37088] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37096] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37113] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37095] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37104] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37103] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37112] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37117] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37132] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37123] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37108] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37136] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37133] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37141] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37147] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37160] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37142] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37169] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+
+Starting clock.
+elapsed time = 40.479597
+Stopped clock.
+
+Time for Execution = 40.498752 s.
+--------------------------
+mpi_gauss with 32 processors for N 3000
+[compute-14-3:37471] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37472] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37473] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37479] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37474] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37475] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37476] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37483] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37477] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37478] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37480] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37490] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37482] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37481] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37488] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37494] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37487] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37502] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37489] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37503] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37499] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37519] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37521] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37529] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37507] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37533] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37517] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37532] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37536] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37530] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37544] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-3:37515] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+
+Starting clock.
+elapsed time = 47.449581
+Stopped clock.
+
+Time for Execution = 47.469738 s.

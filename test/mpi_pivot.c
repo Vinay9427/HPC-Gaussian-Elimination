@@ -96,24 +96,15 @@ int main(int argc, char** argv) {
 		/* read number of equations */
 		fscanf(inputfp, "%d", &num_eq);
 	}
-
-	/*
-		Declaring static arrays for equation coefficients.
-		NOTE: num_eq = 0 for processes with rank other than 0, so no memory assigned to them,
-		The memory is assigned only to the root process.
-	*/
+	time_taken = MPI_Wtime(); // recording start time
+	MPI_Bcast(&num_eq, 1, MPI_INT, 0, MPI_COMM_WORLD); // broadcasted number of equations to all processes
+	// printf("hello: %d", num_eq);
+	double* eq_mat = (double*) malloc(num_eq * num_eq*sizeof(double)); 	//double eq_mat[num_eq][num_eq]; flattened to 1d
+	double* val_mat = (double*)malloc(sizeof(double)*num_eq); 			// Rhs values (y)
 	
-	double eq_mat[num_eq * num_eq]; 	//double eq_mat[num_eq][num_eq]; flattened to 1d
-	double val_mat[num_eq]; 			// Rhs values (y)
-
 	/* for flattening */
 	int divs[num_proc]; 	// Number of coefficients per proc
 	int displs[num_proc]; 	// Begining index of coefficients of each process
-
-	time_taken = MPI_Wtime(); // recording start time
-
-
-	MPI_Bcast(&num_eq, 1, MPI_INT, 0, MPI_COMM_WORLD); // broadcasted number of equations to all processes
 	int rpp = num_eq / num_proc; // temporary variables
 	 
 	int np0 = num_proc - (num_eq % num_proc); 	// Number of processes with rows = rpp (np0),
