@@ -1,0 +1,89 @@
+#!/bin/bash
+#SBATCH -J mpi_pivot_64
+#SBATCH --ntasks=64
+#SBATCH --nodes=1
+#SBATCH --export=all
+#SBATCH --out=./foundryOutputs/mpi_pivot/mpi_pivot_64-%j.out
+#SBATCH --time=0-01:00:00
+#SBATCH --mail-type=begin,end,fail,requeue
+
+echo "mpi_pivot with 64 processors for N 10"
+mpirun ./bin/mpi_pivot ./input/input_10.txt
+echo "--------------------------"
+
+
+echo "mpi_pivot with 64 processors for N 20"
+mpirun ./bin/mpi_pivot ./input/input_20.txt 
+echo "--------------------------"
+
+echo "mpi_pivot with 64 processors for N 100"
+mpirun ./bin/mpi_pivot ./input/input_100.txt 
+echo "--------------------------"
+
+echo "mpi_pivot with 64 processors for N 200"
+mpirun ./bin/mpi_pivot ./input/input_200.txt 
+
+echo "--------------------------"
+
+echo "mpi_pivot with 64 processors for N 400"
+mpirun ./bin/mpi_pivot ./input/input_400.txt 
+
+echo "--------------------------"
+
+echo "mpi_pivot with 64 processors for N 600"
+mpirun ./bin/mpi_pivot ./input/input_600.txt 
+
+
+echo "--------------------------"
+
+echo "mpi_pivot with 64 processors for N 800"
+mpirun ./bin/mpi_pivot ./input/input_800.txt 
+
+
+echo "--------------------------"
+
+echo "mpi_pivot with 64 processors for N 1000"
+mpirun ./bin/mpi_pivot ./input/input_1000.txt 
+
+echo "--------------------------"
+
+echo "mpi_pivot with 64 processors for N 1200"
+mpirun ./bin/mpi_pivot ./input/input_1200.txt 
+
+echo "--------------------------"
+
+echo "mpi_pivot with 64 processors for N 1500"
+mpirun ./bin/mpi_pivot ./input/input_1500.txt 
+
+echo "--------------------------"
+
+echo "mpi_pivot with 64 processors for N 1800"
+mpirun ./bin/mpi_pivot ./input/input_1800.txt 
+
+echo "--------------------------"
+
+echo "mpi_pivot with 64 processors for N 2000"
+mpirun ./bin/mpi_pivot ./input/input_2000.txt 
+
+echo "--------------------------"
+
+echo "mpi_pivot with 64 processors for N 2200"
+mpirun ./bin/mpi_pivot ./input/input_2200.txt 
+
+echo "--------------------------"
+
+echo "mpi_pivot with 64 processors for N 2500"
+mpirun ./bin/mpi_pivot ./input/input_2500.txt 
+
+echo "--------------------------"
+
+echo "mpi_pivot with 64 processors for N 2800"
+mpirun ./bin/mpi_pivot ./input/input_2800.txt 
+
+echo "--------------------------"
+
+
+echo "mpi_pivot with 64 processors for N 3000"
+mpirun ./bin/mpi_pivot ./input/input_3000.txt 
+
+

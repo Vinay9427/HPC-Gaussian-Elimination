@@ -1,0 +1,552 @@
+mpi_pivot with 16 processors for N 10
+[compute-14-6:57589] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57590] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57591] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57604] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57619] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57594] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57597] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57588] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57600] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57601] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57602] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57592] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57595] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57598] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57603] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57618] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[ 1.171562 ]
+[ 3.632274 ]
+[ 3.967466 ]
+[ -0.893569 ]
+[ -1.685128 ]
+[ 3.053162 ]
+[ -3.434143 ]
+[ -0.968988 ]
+[ -2.102035 ]
+[ -2.090986 ]
+Time taken for execution is 0.001430
+[1651268046.548444] [compute-14-6:57619:0]          mpool.c:43   UCX  WARN  object 0x7fefc577dc40 was not returned to mpool ucp_am_bufs
+[1651268046.548458] [compute-14-6:57619:0]          mpool.c:43   UCX  WARN  object 0x7fefc578dcc0 was not returned to mpool ucp_am_bufs
+[1651268046.548460] [compute-14-6:57619:0]          mpool.c:43   UCX  WARN  object 0x7fefc579dd40 was not returned to mpool ucp_am_bufs
+[1651268046.548465] [compute-14-6:57619:0]          mpool.c:43   UCX  WARN  object 0x7fefc57addc0 was not returned to mpool ucp_am_bufs
+[1651268046.548490] [compute-14-6:57619:0]          mpool.c:43   UCX  WARN  object 0x7fefc57bde40 was not returned to mpool ucp_am_bufs
+[1651268046.548499] [compute-14-6:57619:0]          mpool.c:43   UCX  WARN  object 0x7fefc57cdec0 was not returned to mpool ucp_am_bufs
+[1651268046.548502] [compute-14-6:57619:0]          mpool.c:43   UCX  WARN  object 0x7fefc57ddf40 was not returned to mpool ucp_am_bufs
+[1651268046.548505] [compute-14-6:57619:0]          mpool.c:43   UCX  WARN  object 0x7fefc57edfc0 was not returned to mpool ucp_am_bufs
+[1651268046.548560] [compute-14-6:57619:0]          mpool.c:43   UCX  WARN  object 0x7fefcdc58e68 was not returned to mpool mm_recv_desc
+--------------------------
+mpi_pivot with 16 processors for N 20
+[compute-14-6:57791] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57789] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57790] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57792] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57793] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57794] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57800] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57797] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57802] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57807] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57808] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57811] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57812] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57788] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57815] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57813] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[ 0.578462 ]
+[ 0.171566 ]
+[ 1.754130 ]
+[ 0.737312 ]
+[ -2.042059 ]
+[ 0.764763 ]
+[ 0.253586 ]
+[ 0.075437 ]
+[ -0.201457 ]
+[ -0.232678 ]
+[ -1.003136 ]
+[ 0.228296 ]
+[ 0.891693 ]
+[ -0.322158 ]
+[ 1.557920 ]
+[ -1.922665 ]
+[ 0.781453 ]
+[ -1.269522 ]
+[ -1.024413 ]
+[ 0.967664 ]
+Time taken for execution is 0.001343
+[1651268047.109138] [compute-14-6:57815:0]          mpool.c:43   UCX  WARN  object 0x7fe2739fb940 was not returned to mpool ucp_am_bufs
+[1651268047.109151] [compute-14-6:57815:0]          mpool.c:43   UCX  WARN  object 0x7fe273a0b9c0 was not returned to mpool ucp_am_bufs
+[1651268047.109155] [compute-14-6:57815:0]          mpool.c:43   UCX  WARN  object 0x7fe273a1ba40 was not returned to mpool ucp_am_bufs
+[1651268047.109185] [compute-14-6:57815:0]          mpool.c:43   UCX  WARN  object 0x7fe273a2bac0 was not returned to mpool ucp_am_bufs
+[1651268047.109196] [compute-14-6:57815:0]          mpool.c:43   UCX  WARN  object 0x7fe273a3bb40 was not returned to mpool ucp_am_bufs
+[1651268047.109207] [compute-14-6:57815:0]          mpool.c:43   UCX  WARN  object 0x7fe273a4bbc0 was not returned to mpool ucp_am_bufs
+[1651268047.109218] [compute-14-6:57815:0]          mpool.c:43   UCX  WARN  object 0x7fe273a5bc40 was not returned to mpool ucp_am_bufs
+[1651268047.109228] [compute-14-6:57815:0]          mpool.c:43   UCX  WARN  object 0x7fe273a6bcc0 was not returned to mpool ucp_am_bufs
+[1651268047.109242] [compute-14-6:57815:0]          mpool.c:43   UCX  WARN  object 0x7fe273a7bd40 was not returned to mpool ucp_am_bufs
+[1651268047.109244] [compute-14-6:57815:0]          mpool.c:43   UCX  WARN  object 0x7fe273a8bdc0 was not returned to mpool ucp_am_bufs
+[1651268047.109247] [compute-14-6:57815:0]          mpool.c:43   UCX  WARN  object 0x7fe273a9be40 was not returned to mpool ucp_am_bufs
+[1651268047.109250] [compute-14-6:57815:0]          mpool.c:43   UCX  WARN  object 0x7fe273aabec0 was not returned to mpool ucp_am_bufs
+[1651268047.109252] [compute-14-6:57815:0]          mpool.c:43   UCX  WARN  object 0x7fe273abbf40 was not returned to mpool ucp_am_bufs
+[1651268047.109255] [compute-14-6:57815:0]          mpool.c:43   UCX  WARN  object 0x7fe273acbfc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 16 processors for N 100
+[compute-14-6:57969] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57970] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57971] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57975] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57968] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57979] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57982] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57980] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57987] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57983] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57986] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57988] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57991] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57994] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57993] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:57992] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 0.003055
+[1651268047.629775] [compute-14-6:57994:0]          mpool.c:43   UCX  WARN  object 0x7f59b9cde940 was not returned to mpool ucp_am_bufs
+[1651268047.629790] [compute-14-6:57994:0]          mpool.c:43   UCX  WARN  object 0x7f59b9cee9c0 was not returned to mpool ucp_am_bufs
+[1651268047.629795] [compute-14-6:57994:0]          mpool.c:43   UCX  WARN  object 0x7f59b9cfea40 was not returned to mpool ucp_am_bufs
+[1651268047.629798] [compute-14-6:57994:0]          mpool.c:43   UCX  WARN  object 0x7f59b9d0eac0 was not returned to mpool ucp_am_bufs
+[1651268047.629828] [compute-14-6:57994:0]          mpool.c:43   UCX  WARN  object 0x7f59b9d1eb40 was not returned to mpool ucp_am_bufs
+[1651268047.629841] [compute-14-6:57994:0]          mpool.c:43   UCX  WARN  object 0x7f59b9d2ebc0 was not returned to mpool ucp_am_bufs
+[1651268047.629854] [compute-14-6:57994:0]          mpool.c:43   UCX  WARN  object 0x7f59b9d3ec40 was not returned to mpool ucp_am_bufs
+[1651268047.629857] [compute-14-6:57994:0]          mpool.c:43   UCX  WARN  object 0x7f59b9d4ecc0 was not returned to mpool ucp_am_bufs
+[1651268047.629860] [compute-14-6:57994:0]          mpool.c:43   UCX  WARN  object 0x7f59b9d5ed40 was not returned to mpool ucp_am_bufs
+[1651268047.629862] [compute-14-6:57994:0]          mpool.c:43   UCX  WARN  object 0x7f59b9d6edc0 was not returned to mpool ucp_am_bufs
+[1651268047.629877] [compute-14-6:57994:0]          mpool.c:43   UCX  WARN  object 0x7f59b9d7ee40 was not returned to mpool ucp_am_bufs
+[1651268047.629889] [compute-14-6:57994:0]          mpool.c:43   UCX  WARN  object 0x7f59b9d8eec0 was not returned to mpool ucp_am_bufs
+[1651268047.629902] [compute-14-6:57994:0]          mpool.c:43   UCX  WARN  object 0x7f59b9d9ef40 was not returned to mpool ucp_am_bufs
+[1651268047.629905] [compute-14-6:57994:0]          mpool.c:43   UCX  WARN  object 0x7f59b9daefc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 16 processors for N 200
+[compute-14-6:58151] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58152] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58150] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58149] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58158] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58153] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58160] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58148] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58170] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58162] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58167] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58168] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58174] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58172] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58179] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58182] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 0.008463
+[1651268048.163839] [compute-14-6:58182:0]          mpool.c:43   UCX  WARN  object 0x7f0639c14940 was not returned to mpool ucp_am_bufs
+[1651268048.163853] [compute-14-6:58182:0]          mpool.c:43   UCX  WARN  object 0x7f0639c249c0 was not returned to mpool ucp_am_bufs
+[1651268048.163857] [compute-14-6:58182:0]          mpool.c:43   UCX  WARN  object 0x7f0639c34a40 was not returned to mpool ucp_am_bufs
+[1651268048.163861] [compute-14-6:58182:0]          mpool.c:43   UCX  WARN  object 0x7f0639c44ac0 was not returned to mpool ucp_am_bufs
+[1651268048.163875] [compute-14-6:58182:0]          mpool.c:43   UCX  WARN  object 0x7f0639c54b40 was not returned to mpool ucp_am_bufs
+[1651268048.163890] [compute-14-6:58182:0]          mpool.c:43   UCX  WARN  object 0x7f0639c64bc0 was not returned to mpool ucp_am_bufs
+[1651268048.163893] [compute-14-6:58182:0]          mpool.c:43   UCX  WARN  object 0x7f0639c74c40 was not returned to mpool ucp_am_bufs
+[1651268048.163904] [compute-14-6:58182:0]          mpool.c:43   UCX  WARN  object 0x7f0639c84cc0 was not returned to mpool ucp_am_bufs
+[1651268048.163907] [compute-14-6:58182:0]          mpool.c:43   UCX  WARN  object 0x7f0639c94d40 was not returned to mpool ucp_am_bufs
+[1651268048.163909] [compute-14-6:58182:0]          mpool.c:43   UCX  WARN  object 0x7f0639ca4dc0 was not returned to mpool ucp_am_bufs
+[1651268048.163912] [compute-14-6:58182:0]          mpool.c:43   UCX  WARN  object 0x7f0639cb4e40 was not returned to mpool ucp_am_bufs
+[1651268048.163914] [compute-14-6:58182:0]          mpool.c:43   UCX  WARN  object 0x7f0639cc4ec0 was not returned to mpool ucp_am_bufs
+[1651268048.163917] [compute-14-6:58182:0]          mpool.c:43   UCX  WARN  object 0x7f0639cd4f40 was not returned to mpool ucp_am_bufs
+[1651268048.163919] [compute-14-6:58182:0]          mpool.c:43   UCX  WARN  object 0x7f0639ce4fc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 16 processors for N 400
+[compute-14-6:58330] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58329] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58331] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58344] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58332] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58342] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58328] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58333] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58348] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58339] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58351] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58347] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58353] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58352] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58354] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58350] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 0.030273
+[1651268048.730451] [compute-14-6:58354:0]          mpool.c:43   UCX  WARN  object 0x7fa857c09940 was not returned to mpool ucp_am_bufs
+[1651268048.730466] [compute-14-6:58354:0]          mpool.c:43   UCX  WARN  object 0x7fa857c199c0 was not returned to mpool ucp_am_bufs
+[1651268048.730470] [compute-14-6:58354:0]          mpool.c:43   UCX  WARN  object 0x7fa857c29a40 was not returned to mpool ucp_am_bufs
+[1651268048.730472] [compute-14-6:58354:0]          mpool.c:43   UCX  WARN  object 0x7fa857c39ac0 was not returned to mpool ucp_am_bufs
+[1651268048.730487] [compute-14-6:58354:0]          mpool.c:43   UCX  WARN  object 0x7fa857c49b40 was not returned to mpool ucp_am_bufs
+[1651268048.730499] [compute-14-6:58354:0]          mpool.c:43   UCX  WARN  object 0x7fa857c59bc0 was not returned to mpool ucp_am_bufs
+[1651268048.730508] [compute-14-6:58354:0]          mpool.c:43   UCX  WARN  object 0x7fa857c69c40 was not returned to mpool ucp_am_bufs
+[1651268048.730511] [compute-14-6:58354:0]          mpool.c:43   UCX  WARN  object 0x7fa857c79cc0 was not returned to mpool ucp_am_bufs
+[1651268048.730514] [compute-14-6:58354:0]          mpool.c:43   UCX  WARN  object 0x7fa857c89d40 was not returned to mpool ucp_am_bufs
+[1651268048.730519] [compute-14-6:58354:0]          mpool.c:43   UCX  WARN  object 0x7fa857c99dc0 was not returned to mpool ucp_am_bufs
+[1651268048.730526] [compute-14-6:58354:0]          mpool.c:43   UCX  WARN  object 0x7fa857ca9e40 was not returned to mpool ucp_am_bufs
+[1651268048.730535] [compute-14-6:58354:0]          mpool.c:43   UCX  WARN  object 0x7fa857cb9ec0 was not returned to mpool ucp_am_bufs
+[1651268048.730538] [compute-14-6:58354:0]          mpool.c:43   UCX  WARN  object 0x7fa857cc9f40 was not returned to mpool ucp_am_bufs
+[1651268048.730540] [compute-14-6:58354:0]          mpool.c:43   UCX  WARN  object 0x7fa857cd9fc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 16 processors for N 600
+[compute-14-6:58511] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58510] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58509] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58514] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58517] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58520] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58515] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58522] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58508] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58527] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58532] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58534] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58538] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58530] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58525] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58540] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 0.082383
+[1651268049.333757] [compute-14-6:58540:0]          mpool.c:43   UCX  WARN  object 0x7f3999035940 was not returned to mpool ucp_am_bufs
+[1651268049.333772] [compute-14-6:58540:0]          mpool.c:43   UCX  WARN  object 0x7f39990459c0 was not returned to mpool ucp_am_bufs
+[1651268049.333777] [compute-14-6:58540:0]          mpool.c:43   UCX  WARN  object 0x7f3999055a40 was not returned to mpool ucp_am_bufs
+[1651268049.333793] [compute-14-6:58540:0]          mpool.c:43   UCX  WARN  object 0x7f3999065ac0 was not returned to mpool ucp_am_bufs
+[1651268049.333796] [compute-14-6:58540:0]          mpool.c:43   UCX  WARN  object 0x7f3999075b40 was not returned to mpool ucp_am_bufs
+[1651268049.333799] [compute-14-6:58540:0]          mpool.c:43   UCX  WARN  object 0x7f3999085bc0 was not returned to mpool ucp_am_bufs
+[1651268049.333810] [compute-14-6:58540:0]          mpool.c:43   UCX  WARN  object 0x7f3999095c40 was not returned to mpool ucp_am_bufs
+[1651268049.333821] [compute-14-6:58540:0]          mpool.c:43   UCX  WARN  object 0x7f39990a5cc0 was not returned to mpool ucp_am_bufs
+[1651268049.333824] [compute-14-6:58540:0]          mpool.c:43   UCX  WARN  object 0x7f39990b5d40 was not returned to mpool ucp_am_bufs
+[1651268049.333826] [compute-14-6:58540:0]          mpool.c:43   UCX  WARN  object 0x7f39990c5dc0 was not returned to mpool ucp_am_bufs
+[1651268049.333829] [compute-14-6:58540:0]          mpool.c:43   UCX  WARN  object 0x7f39990d5e40 was not returned to mpool ucp_am_bufs
+[1651268049.333831] [compute-14-6:58540:0]          mpool.c:43   UCX  WARN  object 0x7f39990e5ec0 was not returned to mpool ucp_am_bufs
+[1651268049.333839] [compute-14-6:58540:0]          mpool.c:43   UCX  WARN  object 0x7f39990f5f40 was not returned to mpool ucp_am_bufs
+[1651268049.333850] [compute-14-6:58540:0]          mpool.c:43   UCX  WARN  object 0x7f3999105fc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 16 processors for N 800
+[compute-14-6:58689] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58690] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58691] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58692] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58688] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58699] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58693] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58704] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58706] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58707] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58711] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58712] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58708] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58714] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58724] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58727] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 0.148720
+[1651268050.010501] [compute-14-6:58727:0]          mpool.c:43   UCX  WARN  object 0x7fbc551fa940 was not returned to mpool ucp_am_bufs
+[1651268050.010516] [compute-14-6:58727:0]          mpool.c:43   UCX  WARN  object 0x7fbc5520a9c0 was not returned to mpool ucp_am_bufs
+[1651268050.010521] [compute-14-6:58727:0]          mpool.c:43   UCX  WARN  object 0x7fbc5521aa40 was not returned to mpool ucp_am_bufs
+[1651268050.010524] [compute-14-6:58727:0]          mpool.c:43   UCX  WARN  object 0x7fbc5522aac0 was not returned to mpool ucp_am_bufs
+[1651268050.010535] [compute-14-6:58727:0]          mpool.c:43   UCX  WARN  object 0x7fbc5523ab40 was not returned to mpool ucp_am_bufs
+[1651268050.010544] [compute-14-6:58727:0]          mpool.c:43   UCX  WARN  object 0x7fbc5524abc0 was not returned to mpool ucp_am_bufs
+[1651268050.010547] [compute-14-6:58727:0]          mpool.c:43   UCX  WARN  object 0x7fbc5525ac40 was not returned to mpool ucp_am_bufs
+[1651268050.010550] [compute-14-6:58727:0]          mpool.c:43   UCX  WARN  object 0x7fbc5526acc0 was not returned to mpool ucp_am_bufs
+[1651268050.010552] [compute-14-6:58727:0]          mpool.c:43   UCX  WARN  object 0x7fbc5527ad40 was not returned to mpool ucp_am_bufs
+[1651268050.010555] [compute-14-6:58727:0]          mpool.c:43   UCX  WARN  object 0x7fbc5528adc0 was not returned to mpool ucp_am_bufs
+[1651268050.010557] [compute-14-6:58727:0]          mpool.c:43   UCX  WARN  object 0x7fbc5529ae40 was not returned to mpool ucp_am_bufs
+[1651268050.010559] [compute-14-6:58727:0]          mpool.c:43   UCX  WARN  object 0x7fbc552aaec0 was not returned to mpool ucp_am_bufs
+[1651268050.010562] [compute-14-6:58727:0]          mpool.c:43   UCX  WARN  object 0x7fbc552baf40 was not returned to mpool ucp_am_bufs
+[1651268050.010565] [compute-14-6:58727:0]          mpool.c:43   UCX  WARN  object 0x7fbc552cafc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 16 processors for N 1000
+[compute-14-6:58869] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58870] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58871] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58886] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58872] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58884] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58883] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58873] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58868] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58897] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58892] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58891] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58894] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58890] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58887] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:58888] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 0.244254
+[1651268050.803590] [compute-14-6:58897:0]          mpool.c:43   UCX  WARN  object 0x7fb6fc6cf940 was not returned to mpool ucp_am_bufs
+[1651268050.803610] [compute-14-6:58897:0]          mpool.c:43   UCX  WARN  object 0x7fb6fc6df9c0 was not returned to mpool ucp_am_bufs
+[1651268050.803615] [compute-14-6:58897:0]          mpool.c:43   UCX  WARN  object 0x7fb6fc6efa40 was not returned to mpool ucp_am_bufs
+[1651268050.803616] [compute-14-6:58897:0]          mpool.c:43   UCX  WARN  object 0x7fb6fc6ffac0 was not returned to mpool ucp_am_bufs
+[1651268050.803618] [compute-14-6:58897:0]          mpool.c:43   UCX  WARN  object 0x7fb6fc70fb40 was not returned to mpool ucp_am_bufs
+[1651268050.803636] [compute-14-6:58897:0]          mpool.c:43   UCX  WARN  object 0x7fb6fc71fbc0 was not returned to mpool ucp_am_bufs
+[1651268050.803638] [compute-14-6:58897:0]          mpool.c:43   UCX  WARN  object 0x7fb6fc72fc40 was not returned to mpool ucp_am_bufs
+[1651268050.803653] [compute-14-6:58897:0]          mpool.c:43   UCX  WARN  object 0x7fb6fc73fcc0 was not returned to mpool ucp_am_bufs
+[1651268050.803656] [compute-14-6:58897:0]          mpool.c:43   UCX  WARN  object 0x7fb6fc74fd40 was not returned to mpool ucp_am_bufs
+[1651268050.803659] [compute-14-6:58897:0]          mpool.c:43   UCX  WARN  object 0x7fb6fc75fdc0 was not returned to mpool ucp_am_bufs
+[1651268050.803663] [compute-14-6:58897:0]          mpool.c:43   UCX  WARN  object 0x7fb6fc76fe40 was not returned to mpool ucp_am_bufs
+[1651268050.803672] [compute-14-6:58897:0]          mpool.c:43   UCX  WARN  object 0x7fb6fc77fec0 was not returned to mpool ucp_am_bufs
+[1651268050.803674] [compute-14-6:58897:0]          mpool.c:43   UCX  WARN  object 0x7fb6fc78ff40 was not returned to mpool ucp_am_bufs
+[1651268050.803677] [compute-14-6:58897:0]          mpool.c:43   UCX  WARN  object 0x7fb6fc79ffc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 16 processors for N 1200
+[compute-14-6:59050] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59051] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59049] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59048] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59052] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59057] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59063] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59065] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59068] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59069] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59073] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59066] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59075] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59078] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59062] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59082] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 0.394760
+[1651268051.731131] [compute-14-6:59082:0]          mpool.c:43   UCX  WARN  object 0x7f87f8148940 was not returned to mpool ucp_am_bufs
+[1651268051.731148] [compute-14-6:59082:0]          mpool.c:43   UCX  WARN  object 0x7f87f81589c0 was not returned to mpool ucp_am_bufs
+[1651268051.731152] [compute-14-6:59082:0]          mpool.c:43   UCX  WARN  object 0x7f87f8168a40 was not returned to mpool ucp_am_bufs
+[1651268051.731154] [compute-14-6:59082:0]          mpool.c:43   UCX  WARN  object 0x7f87f8178ac0 was not returned to mpool ucp_am_bufs
+[1651268051.731171] [compute-14-6:59082:0]          mpool.c:43   UCX  WARN  object 0x7f87f8188b40 was not returned to mpool ucp_am_bufs
+[1651268051.731173] [compute-14-6:59082:0]          mpool.c:43   UCX  WARN  object 0x7f87f8198bc0 was not returned to mpool ucp_am_bufs
+[1651268051.731177] [compute-14-6:59082:0]          mpool.c:43   UCX  WARN  object 0x7f87f81a8c40 was not returned to mpool ucp_am_bufs
+[1651268051.731179] [compute-14-6:59082:0]          mpool.c:43   UCX  WARN  object 0x7f87f81b8cc0 was not returned to mpool ucp_am_bufs
+[1651268051.731184] [compute-14-6:59082:0]          mpool.c:43   UCX  WARN  object 0x7f87f81c8d40 was not returned to mpool ucp_am_bufs
+[1651268051.731188] [compute-14-6:59082:0]          mpool.c:43   UCX  WARN  object 0x7f87f81d8dc0 was not returned to mpool ucp_am_bufs
+[1651268051.731196] [compute-14-6:59082:0]          mpool.c:43   UCX  WARN  object 0x7f87f81e8e40 was not returned to mpool ucp_am_bufs
+[1651268051.731200] [compute-14-6:59082:0]          mpool.c:43   UCX  WARN  object 0x7f87f81f8ec0 was not returned to mpool ucp_am_bufs
+[1651268051.731215] [compute-14-6:59082:0]          mpool.c:43   UCX  WARN  object 0x7f87f8208f40 was not returned to mpool ucp_am_bufs
+[1651268051.731217] [compute-14-6:59082:0]          mpool.c:43   UCX  WARN  object 0x7f87f8218fc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 16 processors for N 1500
+[compute-14-6:59231] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59230] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59232] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59229] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59235] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59233] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59241] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59234] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59243] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59245] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59265] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59253] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59256] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59242] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59246] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59228] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 0.675760
+[1651268052.918977] [compute-14-6:59265:0]          mpool.c:43   UCX  WARN  object 0x7f9e511aa8c0 was not returned to mpool ucp_am_bufs
+[1651268052.918996] [compute-14-6:59265:0]          mpool.c:43   UCX  WARN  object 0x7f9e511ba940 was not returned to mpool ucp_am_bufs
+[1651268052.919002] [compute-14-6:59265:0]          mpool.c:43   UCX  WARN  object 0x7f9e511ca9c0 was not returned to mpool ucp_am_bufs
+[1651268052.919027] [compute-14-6:59265:0]          mpool.c:43   UCX  WARN  object 0x7f9e511eaac0 was not returned to mpool ucp_am_bufs
+[1651268052.919039] [compute-14-6:59265:0]          mpool.c:43   UCX  WARN  object 0x7f9e511fab40 was not returned to mpool ucp_am_bufs
+[1651268052.919056] [compute-14-6:59265:0]          mpool.c:43   UCX  WARN  object 0x7f9e5120abc0 was not returned to mpool ucp_am_bufs
+[1651268052.919057] [compute-14-6:59265:0]          mpool.c:43   UCX  WARN  object 0x7f9e5121ac40 was not returned to mpool ucp_am_bufs
+[1651268052.919070] [compute-14-6:59265:0]          mpool.c:43   UCX  WARN  object 0x7f9e5122acc0 was not returned to mpool ucp_am_bufs
+[1651268052.919075] [compute-14-6:59265:0]          mpool.c:43   UCX  WARN  object 0x7f9e5123ad40 was not returned to mpool ucp_am_bufs
+[1651268052.919092] [compute-14-6:59265:0]          mpool.c:43   UCX  WARN  object 0x7f9e5124adc0 was not returned to mpool ucp_am_bufs
+[1651268052.919096] [compute-14-6:59265:0]          mpool.c:43   UCX  WARN  object 0x7f9e5125ae40 was not returned to mpool ucp_am_bufs
+[1651268052.919111] [compute-14-6:59265:0]          mpool.c:43   UCX  WARN  object 0x7f9e5126aec0 was not returned to mpool ucp_am_bufs
+[1651268052.919129] [compute-14-6:59265:0]          mpool.c:43   UCX  WARN  object 0x7f9e5127af40 was not returned to mpool ucp_am_bufs
+[1651268052.919147] [compute-14-6:59265:0]          mpool.c:43   UCX  WARN  object 0x7f9e5128afc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 16 processors for N 1800
+[compute-14-6:59410] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59412] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59411] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59409] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59408] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59422] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59417] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59423] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59428] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59431] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59438] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59425] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59426] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59432] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59440] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59434] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 1.061761
+[1651268054.492788] [compute-14-6:59440:0]          mpool.c:43   UCX  WARN  object 0x7fe1788c9940 was not returned to mpool ucp_am_bufs
+[1651268054.492806] [compute-14-6:59440:0]          mpool.c:43   UCX  WARN  object 0x7fe1788d99c0 was not returned to mpool ucp_am_bufs
+[1651268054.492811] [compute-14-6:59440:0]          mpool.c:43   UCX  WARN  object 0x7fe1788e9a40 was not returned to mpool ucp_am_bufs
+[1651268054.492813] [compute-14-6:59440:0]          mpool.c:43   UCX  WARN  object 0x7fe1788f9ac0 was not returned to mpool ucp_am_bufs
+[1651268054.492833] [compute-14-6:59440:0]          mpool.c:43   UCX  WARN  object 0x7fe178909b40 was not returned to mpool ucp_am_bufs
+[1651268054.492835] [compute-14-6:59440:0]          mpool.c:43   UCX  WARN  object 0x7fe178919bc0 was not returned to mpool ucp_am_bufs
+[1651268054.492842] [compute-14-6:59440:0]          mpool.c:43   UCX  WARN  object 0x7fe178929c40 was not returned to mpool ucp_am_bufs
+[1651268054.492860] [compute-14-6:59440:0]          mpool.c:43   UCX  WARN  object 0x7fe178939cc0 was not returned to mpool ucp_am_bufs
+[1651268054.492863] [compute-14-6:59440:0]          mpool.c:43   UCX  WARN  object 0x7fe178949d40 was not returned to mpool ucp_am_bufs
+[1651268054.492865] [compute-14-6:59440:0]          mpool.c:43   UCX  WARN  object 0x7fe178959dc0 was not returned to mpool ucp_am_bufs
+[1651268054.492877] [compute-14-6:59440:0]          mpool.c:43   UCX  WARN  object 0x7fe178969e40 was not returned to mpool ucp_am_bufs
+[1651268054.492879] [compute-14-6:59440:0]          mpool.c:43   UCX  WARN  object 0x7fe178979ec0 was not returned to mpool ucp_am_bufs
+[1651268054.492883] [compute-14-6:59440:0]          mpool.c:43   UCX  WARN  object 0x7fe178989f40 was not returned to mpool ucp_am_bufs
+[1651268054.492897] [compute-14-6:59440:0]          mpool.c:43   UCX  WARN  object 0x7fe178999fc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 16 processors for N 2000
+[compute-14-6:59605] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59607] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59606] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59615] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59610] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59609] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59608] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59603] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59604] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59630] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59627] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59619] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59617] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59618] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59621] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59633] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 1.369759
+[1651268056.427161] [compute-14-6:59633:0]          mpool.c:43   UCX  WARN  object 0x7f1617c09940 was not returned to mpool ucp_am_bufs
+[1651268056.427181] [compute-14-6:59633:0]          mpool.c:43   UCX  WARN  object 0x7f1617c199c0 was not returned to mpool ucp_am_bufs
+[1651268056.427185] [compute-14-6:59633:0]          mpool.c:43   UCX  WARN  object 0x7f1617c29a40 was not returned to mpool ucp_am_bufs
+[1651268056.427187] [compute-14-6:59633:0]          mpool.c:43   UCX  WARN  object 0x7f1617c39ac0 was not returned to mpool ucp_am_bufs
+[1651268056.427210] [compute-14-6:59633:0]          mpool.c:43   UCX  WARN  object 0x7f1617c49b40 was not returned to mpool ucp_am_bufs
+[1651268056.427212] [compute-14-6:59633:0]          mpool.c:43   UCX  WARN  object 0x7f1617c59bc0 was not returned to mpool ucp_am_bufs
+[1651268056.427218] [compute-14-6:59633:0]          mpool.c:43   UCX  WARN  object 0x7f1617c69c40 was not returned to mpool ucp_am_bufs
+[1651268056.427241] [compute-14-6:59633:0]          mpool.c:43   UCX  WARN  object 0x7f1617c79cc0 was not returned to mpool ucp_am_bufs
+[1651268056.427243] [compute-14-6:59633:0]          mpool.c:43   UCX  WARN  object 0x7f1617c89d40 was not returned to mpool ucp_am_bufs
+[1651268056.427247] [compute-14-6:59633:0]          mpool.c:43   UCX  WARN  object 0x7f1617c99dc0 was not returned to mpool ucp_am_bufs
+[1651268056.427267] [compute-14-6:59633:0]          mpool.c:43   UCX  WARN  object 0x7f1617ca9e40 was not returned to mpool ucp_am_bufs
+[1651268056.427269] [compute-14-6:59633:0]          mpool.c:43   UCX  WARN  object 0x7f1617cb9ec0 was not returned to mpool ucp_am_bufs
+[1651268056.427272] [compute-14-6:59633:0]          mpool.c:43   UCX  WARN  object 0x7f1617cc9f40 was not returned to mpool ucp_am_bufs
+[1651268056.427290] [compute-14-6:59633:0]          mpool.c:43   UCX  WARN  object 0x7f1617cd9fc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 16 processors for N 2200
+[compute-14-6:59785] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59786] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59790] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59784] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59789] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59796] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59799] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59800] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59793] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59803] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59806] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59809] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59804] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59817] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59811] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59816] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 1.827990
+[1651268058.823693] [compute-14-6:59817:0]          mpool.c:43   UCX  WARN  object 0x7fdc3517a940 was not returned to mpool ucp_am_bufs
+[1651268058.823711] [compute-14-6:59817:0]          mpool.c:43   UCX  WARN  object 0x7fdc3518a9c0 was not returned to mpool ucp_am_bufs
+[1651268058.823714] [compute-14-6:59817:0]          mpool.c:43   UCX  WARN  object 0x7fdc3519aa40 was not returned to mpool ucp_am_bufs
+[1651268058.823717] [compute-14-6:59817:0]          mpool.c:43   UCX  WARN  object 0x7fdc351aaac0 was not returned to mpool ucp_am_bufs
+[1651268058.823719] [compute-14-6:59817:0]          mpool.c:43   UCX  WARN  object 0x7fdc351bab40 was not returned to mpool ucp_am_bufs
+[1651268058.823747] [compute-14-6:59817:0]          mpool.c:43   UCX  WARN  object 0x7fdc351cabc0 was not returned to mpool ucp_am_bufs
+[1651268058.823762] [compute-14-6:59817:0]          mpool.c:43   UCX  WARN  object 0x7fdc351dac40 was not returned to mpool ucp_am_bufs
+[1651268058.823791] [compute-14-6:59817:0]          mpool.c:43   UCX  WARN  object 0x7fdc351eacc0 was not returned to mpool ucp_am_bufs
+[1651268058.823792] [compute-14-6:59817:0]          mpool.c:43   UCX  WARN  object 0x7fdc351fad40 was not returned to mpool ucp_am_bufs
+[1651268058.823796] [compute-14-6:59817:0]          mpool.c:43   UCX  WARN  object 0x7fdc3520adc0 was not returned to mpool ucp_am_bufs
+[1651268058.823815] [compute-14-6:59817:0]          mpool.c:43   UCX  WARN  object 0x7fdc3521ae40 was not returned to mpool ucp_am_bufs
+[1651268058.823818] [compute-14-6:59817:0]          mpool.c:43   UCX  WARN  object 0x7fdc3522aec0 was not returned to mpool ucp_am_bufs
+[1651268058.823827] [compute-14-6:59817:0]          mpool.c:43   UCX  WARN  object 0x7fdc3523af40 was not returned to mpool ucp_am_bufs
+[1651268058.823840] [compute-14-6:59817:0]          mpool.c:43   UCX  WARN  object 0x7fdc3524afc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 16 processors for N 2500
+[compute-14-6:59967] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59966] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59968] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59965] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59971] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59969] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59964] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59970] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59990] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59972] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59977] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59983] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59991] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59979] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59980] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:59995] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 2.718205
+[1651268062.101903] [compute-14-6:59995:0]          mpool.c:43   UCX  WARN  object 0x7fc804c38940 was not returned to mpool ucp_am_bufs
+[1651268062.101922] [compute-14-6:59995:0]          mpool.c:43   UCX  WARN  object 0x7fc804c489c0 was not returned to mpool ucp_am_bufs
+[1651268062.101924] [compute-14-6:59995:0]          mpool.c:43   UCX  WARN  object 0x7fc804c58a40 was not returned to mpool ucp_am_bufs
+[1651268062.101930] [compute-14-6:59995:0]          mpool.c:43   UCX  WARN  object 0x7fc804c68ac0 was not returned to mpool ucp_am_bufs
+[1651268062.101932] [compute-14-6:59995:0]          mpool.c:43   UCX  WARN  object 0x7fc804c78b40 was not returned to mpool ucp_am_bufs
+[1651268062.101938] [compute-14-6:59995:0]          mpool.c:43   UCX  WARN  object 0x7fc804c88bc0 was not returned to mpool ucp_am_bufs
+[1651268062.101940] [compute-14-6:59995:0]          mpool.c:43   UCX  WARN  object 0x7fc804c98c40 was not returned to mpool ucp_am_bufs
+[1651268062.101942] [compute-14-6:59995:0]          mpool.c:43   UCX  WARN  object 0x7fc804ca8cc0 was not returned to mpool ucp_am_bufs
+[1651268062.101945] [compute-14-6:59995:0]          mpool.c:43   UCX  WARN  object 0x7fc804cb8d40 was not returned to mpool ucp_am_bufs
+[1651268062.101948] [compute-14-6:59995:0]          mpool.c:43   UCX  WARN  object 0x7fc804cc8dc0 was not returned to mpool ucp_am_bufs
+[1651268062.101950] [compute-14-6:59995:0]          mpool.c:43   UCX  WARN  object 0x7fc804cd8e40 was not returned to mpool ucp_am_bufs
+[1651268062.101953] [compute-14-6:59995:0]          mpool.c:43   UCX  WARN  object 0x7fc804ce8ec0 was not returned to mpool ucp_am_bufs
+[1651268062.101955] [compute-14-6:59995:0]          mpool.c:43   UCX  WARN  object 0x7fc804cf8f40 was not returned to mpool ucp_am_bufs
+[1651268062.101958] [compute-14-6:59995:0]          mpool.c:43   UCX  WARN  object 0x7fc804d08fc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 16 processors for N 2800
+[compute-14-6:60206] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60205] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60204] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60203] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60202] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60215] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60209] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60218] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60221] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60220] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60222] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60226] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60224] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60233] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60228] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60236] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 3.338183
+[1651268065.990679] [compute-14-6:60236:0]          mpool.c:43   UCX  WARN  object 0x7ffacbd10940 was not returned to mpool ucp_am_bufs
+[1651268065.990699] [compute-14-6:60236:0]          mpool.c:43   UCX  WARN  object 0x7ffacbd209c0 was not returned to mpool ucp_am_bufs
+[1651268065.990701] [compute-14-6:60236:0]          mpool.c:43   UCX  WARN  object 0x7ffacbd30a40 was not returned to mpool ucp_am_bufs
+[1651268065.990707] [compute-14-6:60236:0]          mpool.c:43   UCX  WARN  object 0x7ffacbd40ac0 was not returned to mpool ucp_am_bufs
+[1651268065.990711] [compute-14-6:60236:0]          mpool.c:43   UCX  WARN  object 0x7ffacbd50b40 was not returned to mpool ucp_am_bufs
+[1651268065.990713] [compute-14-6:60236:0]          mpool.c:43   UCX  WARN  object 0x7ffacbd60bc0 was not returned to mpool ucp_am_bufs
+[1651268065.990716] [compute-14-6:60236:0]          mpool.c:43   UCX  WARN  object 0x7ffacbd70c40 was not returned to mpool ucp_am_bufs
+[1651268065.990719] [compute-14-6:60236:0]          mpool.c:43   UCX  WARN  object 0x7ffacbd80cc0 was not returned to mpool ucp_am_bufs
+[1651268065.990722] [compute-14-6:60236:0]          mpool.c:43   UCX  WARN  object 0x7ffacbd90d40 was not returned to mpool ucp_am_bufs
+[1651268065.990724] [compute-14-6:60236:0]          mpool.c:43   UCX  WARN  object 0x7ffacbda0dc0 was not returned to mpool ucp_am_bufs
+[1651268065.990732] [compute-14-6:60236:0]          mpool.c:43   UCX  WARN  object 0x7ffacbdb0e40 was not returned to mpool ucp_am_bufs
+[1651268065.990735] [compute-14-6:60236:0]          mpool.c:43   UCX  WARN  object 0x7ffacbdc0ec0 was not returned to mpool ucp_am_bufs
+[1651268065.990738] [compute-14-6:60236:0]          mpool.c:43   UCX  WARN  object 0x7ffacbdd0f40 was not returned to mpool ucp_am_bufs
+[1651268065.990741] [compute-14-6:60236:0]          mpool.c:43   UCX  WARN  object 0x7ffacbde0fc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 16 processors for N 3000
+[compute-14-6:60385] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60386] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60383] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60384] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60387] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60388] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60389] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60399] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60396] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60394] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60406] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60402] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60382] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60420] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60409] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-14-6:60417] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 4.031103
+[1651268070.563494] [compute-14-6:60420:0]          mpool.c:43   UCX  WARN  object 0x7f5f23e99940 was not returned to mpool ucp_am_bufs
+[1651268070.563514] [compute-14-6:60420:0]          mpool.c:43   UCX  WARN  object 0x7f5f23ea99c0 was not returned to mpool ucp_am_bufs
+[1651268070.563519] [compute-14-6:60420:0]          mpool.c:43   UCX  WARN  object 0x7f5f23eb9a40 was not returned to mpool ucp_am_bufs
+[1651268070.563521] [compute-14-6:60420:0]          mpool.c:43   UCX  WARN  object 0x7f5f23ec9ac0 was not returned to mpool ucp_am_bufs
+[1651268070.563524] [compute-14-6:60420:0]          mpool.c:43   UCX  WARN  object 0x7f5f23ed9b40 was not returned to mpool ucp_am_bufs
+[1651268070.563552] [compute-14-6:60420:0]          mpool.c:43   UCX  WARN  object 0x7f5f23ee9bc0 was not returned to mpool ucp_am_bufs
+[1651268070.563553] [compute-14-6:60420:0]          mpool.c:43   UCX  WARN  object 0x7f5f23ef9c40 was not returned to mpool ucp_am_bufs
+[1651268070.563556] [compute-14-6:60420:0]          mpool.c:43   UCX  WARN  object 0x7f5f23f09cc0 was not returned to mpool ucp_am_bufs
+[1651268070.563557] [compute-14-6:60420:0]          mpool.c:43   UCX  WARN  object 0x7f5f23f19d40 was not returned to mpool ucp_am_bufs
+[1651268070.563571] [compute-14-6:60420:0]          mpool.c:43   UCX  WARN  object 0x7f5f23f29dc0 was not returned to mpool ucp_am_bufs
+[1651268070.563584] [compute-14-6:60420:0]          mpool.c:43   UCX  WARN  object 0x7f5f23f39e40 was not returned to mpool ucp_am_bufs
+[1651268070.563586] [compute-14-6:60420:0]          mpool.c:43   UCX  WARN  object 0x7f5f23f49ec0 was not returned to mpool ucp_am_bufs
+[1651268070.563588] [compute-14-6:60420:0]          mpool.c:43   UCX  WARN  object 0x7f5f23f59f40 was not returned to mpool ucp_am_bufs
+[1651268070.563601] [compute-14-6:60420:0]          mpool.c:43   UCX  WARN  object 0x7f5f23f69fc0 was not returned to mpool ucp_am_bufs

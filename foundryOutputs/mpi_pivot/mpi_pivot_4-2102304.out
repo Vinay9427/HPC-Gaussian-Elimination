@@ -1,0 +1,333 @@
+mpi_pivot with 4 processors for N 10
+[compute-12-29:04809] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:04808] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:04806] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:04807] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[ 1.171562 ]
+[ 3.632274 ]
+[ 3.967466 ]
+[ -0.893569 ]
+[ -1.685128 ]
+[ 3.053162 ]
+[ -3.434143 ]
+[ -0.968988 ]
+[ -2.102035 ]
+[ -2.090986 ]
+Time taken for execution is 0.007481
+[1651268042.464558] [compute-12-29:4809 :0]          mpool.c:43   UCX  WARN  object 0x7fa5e4b54f40 was not returned to mpool ucp_am_bufs
+[1651268042.464577] [compute-12-29:4809 :0]          mpool.c:43   UCX  WARN  object 0x7fa5e4b64fc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 4 processors for N 20
+[compute-12-29:04862] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:04863] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:04864] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:04861] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[ 0.578462 ]
+[ 0.171566 ]
+[ 1.754130 ]
+[ 0.737312 ]
+[ -2.042059 ]
+[ 0.764763 ]
+[ 0.253586 ]
+[ 0.075437 ]
+[ -0.201457 ]
+[ -0.232678 ]
+[ -1.003136 ]
+[ 0.228296 ]
+[ 0.891693 ]
+[ -0.322158 ]
+[ 1.557920 ]
+[ -1.922665 ]
+[ 0.781453 ]
+[ -1.269522 ]
+[ -1.024413 ]
+[ 0.967664 ]
+Time taken for execution is 0.007676
+[1651268042.988702] [compute-12-29:4864 :0]          mpool.c:43   UCX  WARN  object 0x7f7b20b5bf40 was not returned to mpool ucp_am_bufs
+[1651268042.988721] [compute-12-29:4864 :0]          mpool.c:43   UCX  WARN  object 0x7f7b20b6bfc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 4 processors for N 100
+[compute-12-29:04910] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:04911] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:04912] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:04909] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 0.010679
+[1651268043.476913] [compute-12-29:4912 :0]          mpool.c:43   UCX  WARN  object 0x7f5692fdcf40 was not returned to mpool ucp_am_bufs
+[1651268043.476933] [compute-12-29:4912 :0]          mpool.c:43   UCX  WARN  object 0x7f5692fecfc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 4 processors for N 200
+[compute-12-29:04959] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:04957] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:04960] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:04958] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 0.011355
+[1651268043.977011] [compute-12-29:4960 :0]          mpool.c:43   UCX  WARN  object 0x7f88059dbf40 was not returned to mpool ucp_am_bufs
+[1651268043.977031] [compute-12-29:4960 :0]          mpool.c:43   UCX  WARN  object 0x7f88059ebfc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 4 processors for N 400
+[compute-12-29:05007] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05009] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05006] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05008] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 0.079737
+[1651268044.547218] [compute-12-29:5009 :0]          mpool.c:43   UCX  WARN  object 0x7f99ac87bf40 was not returned to mpool ucp_am_bufs
+[1651268044.547235] [compute-12-29:5009 :0]          mpool.c:43   UCX  WARN  object 0x7f99ac88bfc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 4 processors for N 600
+[compute-12-29:05055] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05056] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05057] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05054] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 0.149691
+[1651268045.206814] [compute-12-29:5057 :0]          mpool.c:43   UCX  WARN  object 0x7f1f502baf40 was not returned to mpool ucp_am_bufs
+[1651268045.206833] [compute-12-29:5057 :0]          mpool.c:43   UCX  WARN  object 0x7f1f502cafc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 4 processors for N 800
+[compute-12-29:05104] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05105] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05106] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05103] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 0.325678
+[1651268046.077720] [compute-12-29:5106 :0]          mpool.c:43   UCX  WARN  object 0x7f32919dbf40 was not returned to mpool ucp_am_bufs
+[1651268046.077742] [compute-12-29:5106 :0]          mpool.c:43   UCX  WARN  object 0x7f32919ebfc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 4 processors for N 1000
+[compute-12-29:05153] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05154] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05152] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05151] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 0.558273
+[1651268047.143852] [compute-12-29:5154 :0]          mpool.c:43   UCX  WARN  object 0x7f118427af40 was not returned to mpool ucp_am_bufs
+[1651268047.143872] [compute-12-29:5154 :0]          mpool.c:43   UCX  WARN  object 0x7f118428afc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 4 processors for N 1200
+[compute-12-29:05202] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05203] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05204] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05201] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 0.921696
+[1651268048.554304] [compute-12-29:5204 :0]          mpool.c:43   UCX  WARN  object 0x7ff087ed2f40 was not returned to mpool ucp_am_bufs
+[1651268048.554321] [compute-12-29:5204 :0]          mpool.c:43   UCX  WARN  object 0x7ff087ee2fc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 4 processors for N 1500
+[compute-12-29:05252] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05253] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05251] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05250] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 1.711015
+[1651268050.770188] [compute-12-29:5253 :0]          mpool.c:43   UCX  WARN  object 0x7f31449fbf40 was not returned to mpool ucp_am_bufs
+[1651268050.770207] [compute-12-29:5253 :0]          mpool.c:43   UCX  WARN  object 0x7f3144a0bfc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 4 processors for N 1800
+[compute-12-29:05301] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05302] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05303] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05300] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 2.844454
+[1651268054.113725] [compute-12-29:5303 :0]          mpool.c:43   UCX  WARN  object 0x7f32e4efbf40 was not returned to mpool ucp_am_bufs
+[1651268054.113747] [compute-12-29:5303 :0]          mpool.c:43   UCX  WARN  object 0x7f32e4f0bfc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 4 processors for N 2000
+[compute-12-29:05350] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05351] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05349] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05348] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+Time taken for execution is 3.821446
+[1651268058.477260] [compute-12-29:5351 :0]          mpool.c:43   UCX  WARN  object 0x7f194d1daf40 was not returned to mpool ucp_am_bufs
+[1651268058.477278] [compute-12-29:5351 :0]          mpool.c:43   UCX  WARN  object 0x7f194d1eafc0 was not returned to mpool ucp_am_bufs
+--------------------------
+mpi_pivot with 4 processors for N 2200
+[compute-12-29:05455] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05456] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05454] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05453] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:5454 :0:5454] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x7ffcb6cd7280)
+[compute-12-29:5456 :0:5456] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x7ffdf33b2180)
+[compute-12-29:5455 :0:5455] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x7ffeb1c696e0)
+[compute-12-29:5453 :0:5453] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x7ffd256a9c80)
+==== backtrace (tid:   5455) ====
+ 0  /usr/lib/libucs.so.0(ucs_handle_error+0x124) [0x7f8180487e04]
+ 1  /usr/lib/libucs.so.0(+0x2422c) [0x7f818048822c]
+ 2  /usr/lib/libucs.so.0(+0x244a4) [0x7f81804884a4]
+ 3  ./bin/mpi_pivot() [0x401d59]
+ 4  /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f8184c66c87]
+ 5  ./bin/mpi_pivot() [0x40115a]
+=================================
+==== backtrace (tid:   5454) ====
+ 0  /usr/lib/libucs.so.0(ucs_handle_error+0x124) [0x7f0b11fb5e04]
+ 1  /usr/lib/libucs.so.0(+0x2422c) [0x7f0b11fb622c]
+ 2  /usr/lib/libucs.so.0(+0x244a4) [0x7f0b11fb64a4]
+ 3  ./bin/mpi_pivot() [0x401d59]
+ 4  /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f0b1a79cc87]
+ 5  ./bin/mpi_pivot() [0x40115a]
+=================================
+==== backtrace (tid:   5456) ====
+==== backtrace (tid:   5453) ====
+ 0  /usr/lib/libucs.so.0(ucs_handle_error+0x124) [0x7f86f9534e04]
+ 1  /usr/lib/libucs.so.0(+0x2422c) [0x7f86f953522c]
+ 2  /usr/lib/libucs.so.0(+0x244a4) [0x7f86f95354a4]
+ 3  ./bin/mpi_pivot() [0x401d59]
+ 4  /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f8701d13c87]
+ 5  ./bin/mpi_pivot() [0x40115a]
+=================================
+ 0  /usr/lib/libucs.so.0(ucs_handle_error+0x124) [0x7f5cc26b1e04]
+ 1  /usr/lib/libucs.so.0(+0x2422c) [0x7f5cc26b222c]
+ 2  /usr/lib/libucs.so.0(+0x244a4) [0x7f5cc26b24a4]
+ 3  ./bin/mpi_pivot() [0x401d59]
+ 4  /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f5ccaf24c87]
+ 5  ./bin/mpi_pivot() [0x40115a]
+=================================
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 5456 on node compute-12-29 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------
+mpi_pivot with 4 processors for N 2500
+[compute-12-29:05502] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05504] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05503] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05501] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:5502 :0:5502] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x7fff71402e70)
+[compute-12-29:5504 :0:5504] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x7ffee3929760)
+[compute-12-29:5503 :0:5503] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x7ffedcef30c0)
+[compute-12-29:5501 :0:5501] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x7ffe41cde490)
+==== backtrace (tid:   5504) ====
+ 0  /usr/lib/libucs.so.0(ucs_handle_error+0x124) [0x7fc677cdbe04]
+ 1  /usr/lib/libucs.so.0(+0x2422c) [0x7fc677cdc22c]
+ 2  /usr/lib/libucs.so.0(+0x244a4) [0x7fc677cdc4a4]
+ 3  ./bin/mpi_pivot() [0x401d59]
+ 4  /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7fc6806fac87]
+ 5  ./bin/mpi_pivot() [0x40115a]
+=================================
+==== backtrace (tid:   5503) ====
+==== backtrace (tid:   5502) ====
+ 0  /usr/lib/libucs.so.0(ucs_handle_error+0x124) [0x7fdac5261e04]
+ 1  /usr/lib/libucs.so.0(+0x2422c) [0x7fdac526222c]
+ 2  /usr/lib/libucs.so.0(+0x244a4) [0x7fdac52624a4]
+ 3  ./bin/mpi_pivot() [0x401d59]
+ 4  /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7fdacda59c87]
+ 5  ./bin/mpi_pivot() [0x40115a]
+=================================
+ 0  /usr/lib/libucs.so.0(ucs_handle_error+0x124) [0x7f9913de0e04]
+ 1  /usr/lib/libucs.so.0(+0x2422c) [0x7f9913de122c]
+ 2  /usr/lib/libucs.so.0(+0x244a4) [0x7f9913de14a4]
+ 3  ./bin/mpi_pivot() [0x401d59]
+ 4  /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f991c5e7c87]
+ 5  ./bin/mpi_pivot() [0x40115a]
+=================================
+==== backtrace (tid:   5501) ====
+ 0  /usr/lib/libucs.so.0(ucs_handle_error+0x124) [0x7fa21bab2e04]
+ 1  /usr/lib/libucs.so.0(+0x2422c) [0x7fa21bab322c]
+ 2  /usr/lib/libucs.so.0(+0x244a4) [0x7fa21bab34a4]
+ 3  ./bin/mpi_pivot() [0x401d59]
+ 4  /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7fa224338c87]
+ 5  ./bin/mpi_pivot() [0x40115a]
+=================================
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 5503 on node compute-12-29 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------
+mpi_pivot with 4 processors for N 2800
+[compute-12-29:05550] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05551] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05552] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05549] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:5552 :0:5552] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x7ffdbaeb98b0)
+[compute-12-29:5550 :0:5550] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x7ffeaac1ed50)
+[compute-12-29:5551 :0:5551] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x7ffd740a4dd0)
+[compute-12-29:5549 :0:5549] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x7fffedfb8eb0)
+==== backtrace (tid:   5551) ====
+ 0  /usr/lib/libucs.so.0(ucs_handle_error+0x124) [0x7f9c492c7e04]
+ 1  /usr/lib/libucs.so.0(+0x2422c) [0x7f9c492c822c]
+ 2  /usr/lib/libucs.so.0(+0x244a4) [0x7f9c492c84a4]
+ 3  ./bin/mpi_pivot() [0x401d59]
+ 4  /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f9c51aa6c87]
+ 5  ./bin/mpi_pivot() [0x40115a]
+==== backtrace (tid:   5550) ====
+==== backtrace (tid:   5552) ====
+ 0  /usr/lib/libucs.so.0(ucs_handle_error+0x124) [0x7f512088ee04]
+ 1  /usr/lib/libucs.so.0(+0x2422c) [0x7f512088f22c]
+ 2  /usr/lib/libucs.so.0(+0x244a4) [0x7f512088f4a4]
+ 3  ./bin/mpi_pivot() [0x401d59]
+ 4  /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f5124f68c87]
+ 5  ./bin/mpi_pivot() [0x40115a]
+=================================
+=================================
+ 0  /usr/lib/libucs.so.0(ucs_handle_error+0x124) [0x7f6a31d5de04]
+ 1  /usr/lib/libucs.so.0(+0x2422c) [0x7f6a31d5e22c]
+ 2  /usr/lib/libucs.so.0(+0x244a4) [0x7f6a31d5e4a4]
+ 3  ./bin/mpi_pivot() [0x401d59]
+ 4  /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f6a3a5ccc87]
+ 5  ./bin/mpi_pivot() [0x40115a]
+=================================
+==== backtrace (tid:   5549) ====
+ 0  /usr/lib/libucs.so.0(ucs_handle_error+0x124) [0x7f99511e0e04]
+ 1  /usr/lib/libucs.so.0(+0x2422c) [0x7f99511e122c]
+ 2  /usr/lib/libucs.so.0(+0x244a4) [0x7f99511e14a4]
+ 3  ./bin/mpi_pivot() [0x401d59]
+ 4  /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f9959a1cc87]
+ 5  ./bin/mpi_pivot() [0x40115a]
+=================================
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 5552 on node compute-12-29 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------
+mpi_pivot with 4 processors for N 3000
+[compute-12-29:05598] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05599] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05600] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:05597] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-12-29:5600 :0:5600] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x7ffd7c749a60)
+[compute-12-29:5598 :0:5598] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x7ffd7acdd9c0)
+[compute-12-29:5599 :0:5599] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x7fff2d2a1940)
+[compute-12-29:5597 :0:5597] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x7fff2d254920)
+==== backtrace (tid:   5598) ====
+==== backtrace (tid:   5600) ====
+ 0  /usr/lib/libucs.so.0(ucs_handle_error+0x124) [0x7ff1d5294e04]
+ 1  /usr/lib/libucs.so.0(+0x2422c) [0x7ff1d529522c]
+ 2  /usr/lib/libucs.so.0(+0x244a4) [0x7ff1d52954a4]
+ 3  ./bin/mpi_pivot() [0x401d59]
+ 4  /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7ff1dda7ac87]
+ 5  ./bin/mpi_pivot() [0x40115a]
+=================================
+ 0  /usr/lib/libucs.so.0(ucs_handle_error+0x124) [0x7fd3142ade04]
+ 1  /usr/lib/libucs.so.0(+0x2422c) [0x7fd3142ae22c]
+==== backtrace (tid:   5599) ====
+ 0  /usr/lib/libucs.so.0(ucs_handle_error+0x124) [0x7fc319b84e04]
+ 1  /usr/lib/libucs.so.0(+0x2422c) [0x7fc319b8522c]
+ 2  /usr/lib/libucs.so.0(+0x244a4) [0x7fc319b854a4]
+ 3  ./bin/mpi_pivot() [0x401d59]
+ 4  /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7fc322363c87]
+ 5  ./bin/mpi_pivot() [0x40115a]
+=================================
+ 2  /usr/lib/libucs.so.0(+0x244a4) [0x7fd3142ae4a4]
+ 3  ./bin/mpi_pivot() [0x401d59]
+ 4  /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7fd318987c87]
+ 5  ./bin/mpi_pivot() [0x40115a]
+=================================
+==== backtrace (tid:   5597) ====
+ 0  /usr/lib/libucs.so.0(ucs_handle_error+0x124) [0x7f8c4780de04]
+ 1  /usr/lib/libucs.so.0(+0x2422c) [0x7f8c4780e22c]
+ 2  /usr/lib/libucs.so.0(+0x244a4) [0x7f8c4780e4a4]
+ 3  ./bin/mpi_pivot() [0x401d59]
+ 4  /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f8c50002c87]
+ 5  ./bin/mpi_pivot() [0x40115a]
+=================================
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 5598 on node compute-12-29 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
