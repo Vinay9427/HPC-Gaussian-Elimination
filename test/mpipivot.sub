@@ -1,0 +1,12 @@
+#!/bin/bash
+#SBATCH -J MPI_PIVOT_4
+#SBATCH --ntasks=128
+#SBATCH --nodes=2
+#SBATCH --export=all
+#SBATCH --out=./mpipivot-%j.out
+#SBATCH --time=0-00:45:00
+#SBATCH --mail-type=begin,end,fail,requeue
+
+
+echo "mpi_pivot with 128 processors for N 1200"
+mpirun ./mpi_pivot ../input/input_1200.txt

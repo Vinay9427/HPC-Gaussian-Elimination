@@ -1,0 +1,2 @@
+mpi_pivot with 4 processors for N 10
+/var/lib/slurm-llnl/slurmd/job2102075/slurm_script: line 11: mpexec: command not found

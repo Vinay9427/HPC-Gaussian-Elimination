@@ -1,12 +1,12 @@
 #!/bin/bash
 #SBATCH -J MPI_PIVOT_4
-#SBATCH --ntasks=2
-#SBATCH --nodes=1
+#SBATCH --ntasks=1024
+#SBATCH --nodes=16
 #SBATCH --export=all
 #SBATCH --out=./mpigauss-%j.out
 #SBATCH --time=0-00:45:00
 #SBATCH --mail-type=begin,end,fail,requeue
 
 
-echo "mpi_pivot with 4 processors for N 10"
+echo "mpi_gauss with 256 processors for N 1300"
 mpirun ./mpigauss ../input/input_1300.txt 1300

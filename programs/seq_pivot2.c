@@ -26,7 +26,6 @@ void ReadInputAndInitializeMatrix(int argc, char **argv)
         {
             fscanf(inputfp, "%lf", &A[row][col]);
         }
-        //fscanf(inputfp, "%d", &B[row]);
         X[row] = 0;
     }
     fclose(inputfp);
@@ -112,15 +111,6 @@ void gauss()
             }
         }
     }
-
-    // printf("\nA =\n\t");
-    //     for (i = 0; i < N; i++)
-    //     {
-    //         for (j = 0; j <=N; j++)
-    //         {
-    //             printf("%lf%s", A[i][j], (j < N ) ? ", " : ";\n\t");
-    //         }
-    //     }
 
     //Begin Back-substitution
     for(i=N-1;i>=0;i--){

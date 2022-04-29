@@ -47,17 +47,6 @@ int compute_pivot(int curr, int num_proc, int num_eq, double* proc_rows) {
 	return pivot;
 }
 
-/**
- * Divides a complete row by the pivot element
- * @param id        	The ID of the current process
- * @param curr      	The row in which division is to be performed
- * @param proc_rows 	The number of rows assigned to current process
- * @param pivot     	Index of the pivot element
- * @param num_proc  	The total number of processes
- * @param num_eq    	The number of equations in the given systemc_vals The chink of the values vector contained within the current process
- * @param rows_per_proc	The number of rows allotted to the process
- * @param proc_vals		The RHS of each equation that is represented by a row
- */
 void perform_division(int id, int curr, double* proc_rows, int pivot, int num_proc, int num_eq, int rows_per_proc, double * proc_vals) {
 	/* swapping pivot element with element at pivot index */
 	int row_id = curr / num_proc;
@@ -224,10 +213,6 @@ int main(int argc, char** argv) {
 			perform_elimination(i, id, num_eq, proc_rows, proc_vals, curr, recvd_row, rows_per_proc, num_proc, var_perm);
 		}
 		piv = compute_pivot(curr, num_proc, num_eq, proc_rows); 
-
-		// int tmp = var_perm[piv];
-		// var_perm[piv] = var_perm[curr];
-		// var_perm[curr] = tmp;
 
 		perform_division(id, curr, proc_rows, piv, num_proc, num_eq, rows_per_proc, proc_vals);
 		

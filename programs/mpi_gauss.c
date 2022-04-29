@@ -5,7 +5,7 @@
 #include <sys/time.h>
 #include <time.h>
 #include <mpi.h>
-#define MAXN 3000// Maximum Dimension for Matrix 
+#define MAXN 3000
 
 void backSubstitution();
 void displayMat();
@@ -187,10 +187,8 @@ int main(int argc,char *argv[])
 
 	if(id==0)
 	{
-		//initializeMat();//initializing matrix
         ReadInputAndInitializeMatrix(argc, argv);
 		displayMat();//displaying the matrix
-		/* Start Clock */
  		printf("\nStarting clock.\n");
         start = MPI_Wtime();				
 	}
@@ -203,7 +201,6 @@ int main(int argc,char *argv[])
         end = MPI_Wtime();	
   		printf("Stopped clock.\n");
 		printAnswer();
-
         printf("\nTime for Execution = %f s.\n", end-start);
 
 	}

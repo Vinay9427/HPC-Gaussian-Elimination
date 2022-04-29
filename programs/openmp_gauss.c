@@ -89,8 +89,7 @@ int main(int argc, char **argv)
     end = omp_get_wtime();
 
     print_X();
-
-    /* Display timing results */
+    
     printf("\nElapsed time = %fs for Threads = %d.\n", end-start, num_threads);
 
     exit(0);
@@ -120,9 +119,7 @@ void gauss()
             B[row] -= B[norm] * multiplier;
         }
     }
-    /* (Diagonal elements are not normalized to 1.  This is treated in back
-     * substitution.)
-     */
+
 
     /* Back substitution */
     for (row = N - 1; row >= 0; row--)
