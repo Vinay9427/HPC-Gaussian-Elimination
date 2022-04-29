@@ -1,9 +1,0 @@
-#!/bin/bash
-#SBATCH -J MPI_HELLO
-#SBATCH --ntasks=8
-#SBATCH --export=all
-#SBATCH --out=mpi_pivot-%j.out
-#SBATCH --time=0-00:10:00
-#SBATCH --mail-type=begin,end,fail,requeue
-
-mpirun -np 4 ./mpi_pivot ../input_100.txt

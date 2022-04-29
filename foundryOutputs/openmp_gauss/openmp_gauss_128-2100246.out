@@ -1,0 +1,74 @@
+openmp_gauss with 128 threads for N 200
+Computing using OpenMP.
+
+Elapsed time = 0.069728s for Threads = 128.
+--------------------------
+openmp_gauss with 128 threads for N 400
+Computing using OpenMP.
+
+Elapsed time = 0.146059s for Threads = 128.
+--------------------------
+openmp_gauss with 128 threads for N 600
+Computing using OpenMP.
+
+Elapsed time = 0.253863s for Threads = 128.
+--------------------------
+openmp_gauss with 128 threads for N 800
+Computing using OpenMP.
+
+Elapsed time = 0.404816s for Threads = 128.
+--------------------------
+openmp_gauss with 128 threads for N 1000
+Computing using OpenMP.
+
+Elapsed time = 0.578115s for Threads = 128.
+--------------------------
+openmp_gauss with 128 threads for N 1200
+Computing using OpenMP.
+
+Elapsed time = 0.805372s for Threads = 128.
+--------------------------
+openmp_gauss with 128 threads for N 1400
+Computing using OpenMP.
+
+Elapsed time = 1.068000s for Threads = 128.
+--------------------------
+openmp_gauss with 128 threads for N 1600
+Computing using OpenMP.
+
+Elapsed time = 1.480042s for Threads = 128.
+--------------------------
+openmp_gauss with 128 threads for N 1800
+Computing using OpenMP.
+
+Elapsed time = 1.939700s for Threads = 128.
+--------------------------
+openmp_gauss with 128 threads for N 2000
+Computing using OpenMP.
+
+Elapsed time = 2.392457s for Threads = 128.
+--------------------------
+openmp_gauss with 128 threads for N 2200
+Computing using OpenMP.
+
+Elapsed time = 2.980980s for Threads = 128.
+--------------------------
+openmp_gauss with 128 threads for N 2400
+Computing using OpenMP.
+
+Elapsed time = 3.661638s for Threads = 128.
+--------------------------
+openmp_gauss with 128 threads for N 2600
+Computing using OpenMP.
+
+Elapsed time = 4.517172s for Threads = 128.
+--------------------------
+openmp_gauss with 128 threads for N 2800
+Computing using OpenMP.
+
+Elapsed time = 5.463261s for Threads = 128.
+--------------------------
+openmp_gauss with 128 threads for N 3000
+Computing using OpenMP.
+
+Elapsed time = 6.395467s for Threads = 128.

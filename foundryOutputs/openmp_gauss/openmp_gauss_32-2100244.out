@@ -1,0 +1,74 @@
+openmp_gauss with 32 threads for N 200
+Computing using OpenMP.
+
+Elapsed time = 0.028682s for Threads = 32.
+--------------------------
+openmp_gauss with 32 threads for N 400
+Computing using OpenMP.
+
+Elapsed time = 0.072898s for Threads = 32.
+--------------------------
+openmp_gauss with 32 threads for N 600
+Computing using OpenMP.
+
+Elapsed time = 0.142777s for Threads = 32.
+--------------------------
+openmp_gauss with 32 threads for N 800
+Computing using OpenMP.
+
+Elapsed time = 0.248053s for Threads = 32.
+--------------------------
+openmp_gauss with 32 threads for N 1000
+Computing using OpenMP.
+
+Elapsed time = 0.429951s for Threads = 32.
+--------------------------
+openmp_gauss with 32 threads for N 1200
+Computing using OpenMP.
+
+Elapsed time = 0.512962s for Threads = 32.
+--------------------------
+openmp_gauss with 32 threads for N 1400
+Computing using OpenMP.
+
+Elapsed time = 1.075748s for Threads = 32.
+--------------------------
+openmp_gauss with 32 threads for N 1600
+Computing using OpenMP.
+
+Elapsed time = 1.141822s for Threads = 32.
+--------------------------
+openmp_gauss with 32 threads for N 1800
+Computing using OpenMP.
+
+Elapsed time = 1.697594s for Threads = 32.
+--------------------------
+openmp_gauss with 32 threads for N 2000
+Computing using OpenMP.
+
+Elapsed time = 2.138621s for Threads = 32.
+--------------------------
+openmp_gauss with 32 threads for N 2200
+Computing using OpenMP.
+
+Elapsed time = 2.775581s for Threads = 32.
+--------------------------
+openmp_gauss with 32 threads for N 2400
+Computing using OpenMP.
+
+Elapsed time = 3.264220s for Threads = 32.
+--------------------------
+openmp_gauss with 32 threads for N 2600
+Computing using OpenMP.
+
+Elapsed time = 4.194781s for Threads = 32.
+--------------------------
+openmp_gauss with 32 threads for N 2800
+Computing using OpenMP.
+
+Elapsed time = 4.771158s for Threads = 32.
+--------------------------
+openmp_gauss with 32 threads for N 3000
+Computing using OpenMP.
+
+Elapsed time = 5.690621s for Threads = 32.

@@ -1,41 +1,45 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <sys/times.h>
 #include <sys/time.h>
 #include <time.h>
 #include <mpi.h>
-#define MAXN 2000// Maximum Dimension for Matrix 
+#define MAXN 3000// Maximum Dimension for Matrix 
 
-void initializeMat();
 void backSubstitution();
 void displayMat();
 void printAnswer();
 void gaussian_mpi(int N);
 
 int proc,id,N;
-double X[MAXN][MAXN],y[MAXN],Z[MAXN];
+double A[MAXN][MAXN],B[MAXN],X[MAXN];
 
-/* Initialize matrix with random values */
-void initializeMat()
+
+void ReadInputAndInitializeMatrix(int argc, char **argv)
 {
-	int i,j;
-	for (i=0; i<N; i++)
-	{
-		for (j=0; j<N; j++)
-		{
-						
-			X[i][j]=rand()/50000.0;
-		}
-	y[i] = rand()/50000.0;
+    FILE *inputfp = NULL;
+    inputfp = fopen(argv[1], "r");
+    int row, col;
 
-	}
+    /* read number of equations */
+    fscanf(inputfp, "%d", &N);
+    for (row = 0; row < N; row++)
+    {
+        for (col = 0; col < N; col++)
+        {
+            fscanf(inputfp, "%lf", &A[row][col]);
+        }
+        fscanf(inputfp, "%lf", &B[row]);
+    }
+    fclose(inputfp);
 }
 
 /* Displays the matrix which has being initialized */
 void displayMat()
 {	
 	int i,j;
-	if (N < 10)
+	if (N <= 10)
     {
 		printf("Displaying Initial Matrix.\n");
 		for (i=0;i<N;i++)
@@ -43,9 +47,9 @@ void displayMat()
 			printf("| ");
 			for(j=0;j<N; j++)
 			{	
-				printf("%lf ",X[i][j]);
+				printf("%lf ",A[i][j]);
 			}
-			printf("| | %lf |\n",y[i]);
+			printf("| | %lf |\n",B[i]);
 		}
 	}
 }
@@ -57,13 +61,13 @@ void backSubstitution()
 	for (i=N-1;i>=0;i--)
 	{
 		int count=0;
-		Z[i] = y[i];
+		X[i] = B[i];
 		for (j=i+1;j<N;j++)
 		{
-			Z[i]-=X[i][j]*Z[j];
+			X[i]-=A[i][j]*X[j];
 			
 		}
-		Z[i] = Z[i]/X[i][i];
+		X[i] = X[i]/A[i][i];
 	}
 }
 
@@ -85,8 +89,8 @@ void gaussian_mpi(int N)
 	for (k=0;k<N-1;k++)
  	{	
 		//Broadcsting X's and Y's matrix from 0th rank processor to all other processors.
-		MPI_Bcast(&X[k][0],N, MPI_DOUBLE, 0, MPI_COMM_WORLD);
-		MPI_Bcast(&y[k],1, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+		MPI_Bcast(&A[k][0],N, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+		MPI_Bcast(&B[k],1, MPI_DOUBLE, 0, MPI_COMM_WORLD);
 	
 		if(id==0)
 		{
@@ -95,29 +99,29 @@ void gaussian_mpi(int N)
 		  		for (i=k+1+p;i<N;i+=proc)
 		  		{
 				/* Sending X and y matrix from oth to all other processors using non blocking send*/
-				   MPI_Isend(&X[i], N, MPI_DOUBLE, p, 0, MPI_COMM_WORLD, &request);
+				   MPI_Isend(&A[i], N, MPI_DOUBLE, p, 0, MPI_COMM_WORLD, &request);
 				   MPI_Wait(&request, &status);
-				   MPI_Isend(&y[i], 1, MPI_DOUBLE, p, 0, MPI_COMM_WORLD, &request);
+				   MPI_Isend(&B[i], 1, MPI_DOUBLE, p, 0, MPI_COMM_WORLD, &request);
 				   MPI_Wait(&request, &status);
 		  		}
 			}
 			// implementing gaussian elimination 
 			for (i=k+1 ; i<N ; i += proc)
 			{
-	  			mp = X[i][k] / X[k][k];
+	  			mp = A[i][k] / A[k][k];
 	  			for (j = k; j < N; j++)
 	 			{
-	   				X[i][j] -= X[k][j] * mp;
+	   				A[i][j] -= A[k][j] * mp;
 	 			}
-	   			y[i] -= y[k] * mp;
+	   			B[i] -= B[k] * mp;
 			}
 			// Receiving all the values that are send by 0th processor.
 			for (p = 1; p < proc; p++)
 			{
 			  for (i = k + 1 + p; i < N; i += proc)
 			  {
-			    MPI_Recv(&X[i], N, MPI_DOUBLE, p, 1, MPI_COMM_WORLD, &status);
-			    MPI_Recv(&y[i], 1, MPI_DOUBLE, p, 1, MPI_COMM_WORLD, &status);
+			    MPI_Recv(&A[i], N, MPI_DOUBLE, p, 1, MPI_COMM_WORLD, &status);
+			    MPI_Recv(&B[i], 1, MPI_DOUBLE, p, 1, MPI_COMM_WORLD, &status);
 			  }
 			}
 			//Stopping the MPI_Timer
@@ -133,17 +137,17 @@ void gaussian_mpi(int N)
 		{
 			for (i = k + 1 + id; i < N; i += proc)
 			{
-				MPI_Recv(&X[i], N, MPI_DOUBLE, 0, 0, MPI_COMM_WORLD, &status);		
-				MPI_Recv(&y[i], 1, MPI_DOUBLE, 0, 0, MPI_COMM_WORLD, &status);
-				mp = X[i][k] / X[k][k];
+				MPI_Recv(&A[i], N, MPI_DOUBLE, 0, 0, MPI_COMM_WORLD, &status);		
+				MPI_Recv(&B[i], 1, MPI_DOUBLE, 0, 0, MPI_COMM_WORLD, &status);
+				mp = A[i][k] / A[k][k];
 				for (j = k; j < N; j++)
 				{
-				    X[i][j] -= X[k][j] * mp;
+				    A[i][j] -= A[k][j] * mp;
 				}
-				y[i] -= y[k] * mp;
-				MPI_Isend(&X[i], N, MPI_DOUBLE, 0, 1, MPI_COMM_WORLD, &request);						    
+				B[i] -= B[k] * mp;
+				MPI_Isend(&A[i], N, MPI_DOUBLE, 0, 1, MPI_COMM_WORLD, &request);						    
 				MPI_Wait(&request, &status);		
-				MPI_Isend(&y[i], 1, MPI_DOUBLE, 0, 1, MPI_COMM_WORLD, &request);
+				MPI_Isend(&B[i], 1, MPI_DOUBLE, 0, 1, MPI_COMM_WORLD, &request);
 				MPI_Wait(&request, &status);
 			}
 		}
@@ -152,22 +156,22 @@ void gaussian_mpi(int N)
 }
 
 
-/*  Printing Solution Matrix Z   */
+/*  Printing Solution Matrix X   */
 void printAnswer()
 {
 	int i;
-	if(N < 10){
+	if(N <=20){
 		printf("\nSolution Vector (x):\n\n");
 		for (i=0;i<N;i++)
 		{
-			printf("|%lf|\n", Z[i]);
+			printf("|%lf|\n", X[i]);
 		}
 	}	
 }
 
 int main(int argc,char *argv[])
 {
-	
+	double start, end;
 	MPI_Init(&argc,&argv);//Initiating MPI
 	MPI_Comm_rank(MPI_COMM_WORLD,&id);//Getting rank of current processor.
 	MPI_Comm_size(MPI_COMM_WORLD,&proc);//Getting number of processor in MPI_COMM_WORLD
@@ -175,25 +179,20 @@ int main(int argc,char *argv[])
 	
 	if (argc >= 2) 
 	{
-	    N = atoi(argv[1]);//getting matrix dimension from command line argument
+	    N = atoi(argv[2]);//getting matrix dimension from command line argument
    	}
 
 
-	struct timeval etstart, etstop;  
- 	struct timezone tzdummy;
- 	clock_t etstart2, etstop2;  
-  	unsigned long long usecstart, usecstop;
-  	struct tms cputstart, cputstop;  
-
+    start = MPI_Wtime();
 
 	if(id==0)
 	{
-		initializeMat();//initializing matrix
+		//initializeMat();//initializing matrix
+        ReadInputAndInitializeMatrix(argc, argv);
 		displayMat();//displaying the matrix
 		/* Start Clock */
  		printf("\nStarting clock.\n");
-  		gettimeofday(&etstart, &tzdummy);
-  		etstart2 = times(&cputstart);					
+        start = MPI_Wtime();				
 	}
 	
 	gaussian_mpi(N);//implementing the gaussian elimination
@@ -201,18 +200,11 @@ int main(int argc,char *argv[])
 	if(id==0)
 	{
 		backSubstitution();
-		 /* Stop Clock */
-  		gettimeofday(&etstop, &tzdummy);
-  		etstop2 = times(&cputstop);
+        end = MPI_Wtime();	
   		printf("Stopped clock.\n");
-  		usecstart = (unsigned long long)etstart.tv_sec * 1000000 + etstart.tv_usec;
-  		usecstop = (unsigned long long)etstop.tv_sec * 1000000 + etstop.tv_usec;
-	
 		printAnswer();
-		
-		 /* Display timing results */
-  		printf("\nElapsed time = %g ms.\n",
-	 	(float)(usecstop - usecstart)/(float)1000);
+
+        printf("\nTime for Execution = %f s.\n", end-start);
 
 	}
 	MPI_Finalize(); //Finalizing the MPI

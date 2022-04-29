@@ -1,0 +1,32 @@
+mpi_pivot with 4 processors for N 10
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   compute-35-16
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   compute-35-16
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   compute-35-16
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   compute-35-16
+  Local device: mlx5_0
+--------------------------------------------------------------------------
+[compute-35-16:04699] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-35-16:04697] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-35-16:04698] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+[compute-35-16:04696] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-compute-35-16: error: *** STEP 2101599.0 ON compute-35-16 CANCELLED AT 2022-04-28T23:02:11 DUE TO TIME LIMIT ***
+slurmstepd-compute-35-16: error: *** JOB 2101599 ON compute-35-16 CANCELLED AT 2022-04-28T23:02:11 DUE TO TIME LIMIT ***

@@ -1,0 +1,86 @@
+#!/bin/bash
+#SBATCH -J MPI_GAUSS_16
+#SBATCH --ntasks=16
+#SBATCH --nodes=1
+#SBATCH --export=all
+#SBATCH --out=../foundryOutputs/mpi_gauss/mpi_gauss_16-%j.out
+#SBATCH --time=0-01:00:00
+#SBATCH --mail-type=begin,end,fail,requeue
+
+
+echo "mpi_gauss with 16 processors for N 200"
+mpirun ../bin/mpi_gauss ../input/input_200.txt 200
+
+echo "--------------------------"
+
+echo "mpi_gauss with 16 processors for N 400"
+mpirun ../bin/mpi_gauss ../input/input_400.txt 400
+
+echo "--------------------------"
+
+echo "mpi_gauss with 16 processors for N 600"
+mpirun ../bin/mpi_gauss ../input/input_600.txt 600
+
+
+echo "--------------------------"
+
+echo "mpi_gauss with 16 processors for N 800"
+mpirun ../bin/mpi_gauss ../input/input_800.txt 800
+
+
+echo "--------------------------"
+
+echo "mpi_gauss with 16 processors for N 1000"
+mpirun ../bin/mpi_gauss ../input/input_1000.txt 1000
+
+
+echo "--------------------------"
+
+echo "mpi_gauss with 16 processors for N 1200"
+mpirun ../bin/mpi_gauss ../input/input_1200.txt 1200
+
+
+echo "--------------------------"
+
+echo "mpi_gauss with 16 processors for N 1400"
+mpirun ../bin/mpi_gauss ../input/input_1400.txt 1400
+
+echo "--------------------------"
+
+echo "mpi_gauss with 16 processors for N 1600"
+mpirun ../bin/mpi_gauss ../input/input_1600.txt 1600
+
+echo "--------------------------"
+
+echo "mpi_gauss with 16 processors for N 1800"
+mpirun ../bin/mpi_gauss ../input/input_1800.txt 1800
+
+echo "--------------------------"
+
+echo "mpi_gauss with 16 processors for N 2000"
+mpirun ../bin/mpi_gauss ../input/input_2000.txt 2000
+
+echo "--------------------------"
+
+echo "mpi_gauss with 16 processors for N 2200"
+mpirun ../bin/mpi_gauss ../input/input_2200.txt 2200
+
+echo "--------------------------"
+
+echo "mpi_gauss with 16 processors for N 2400"
+mpirun ../bin/mpi_gauss ../input/input_2400.txt 2400
+
+echo "--------------------------"
+
+echo "mpi_gauss with 16 processors for N 2600"
+mpirun ../bin/mpi_gauss ../input/input_2600.txt 2600
+
+echo "--------------------------"
+
+echo "mpi_gauss with 16 processors for N 2800"
+mpirun ../bin/mpi_gauss ../input/input_2800.txt 2800
+
+echo "--------------------------"
+
+echo "mpi_gauss with 16 processors for N 3000"
+mpirun ../bin/mpi_gauss ../input/input_3000.txt 3000

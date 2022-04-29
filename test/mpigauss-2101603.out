@@ -1,0 +1,14 @@
+mpi_pivot with 4 processors for N 10
+--------------------------------------------------------------------------
+WARNING: There was an error initializing an OpenFabrics device.
+
+  Local host:   compute-11-26
+  Local device: mlx5_2
+--------------------------------------------------------------------------
+[compute-11-26:29354] mca_base_component_repository_open: unable to open mca_mtl_ofi: /usr/lib/libibverbs.so.1: version `IBVERBS_1.6' not found (required by /usr/lib/x86_64-linux-gnu/libfabric.so.1) (ignored)
+
+Starting clock.
+elapsed time = 1.857413
+Stopped clock.
+
+Time for Execution = 1.860674 s.
